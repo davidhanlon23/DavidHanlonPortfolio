@@ -7,7 +7,7 @@ import { Provider } from "react-redux";
 import store from "./store";
 import NavigationBar from "./components/NavigationBar/NavigationBar";
 import Landing from "./pages/LandingPage";
-// import Register from "./components/auth/Register";
+//import Register from "./components/auth/Register";
 import Login from "./components/auth/Login";
 import PrivateRoute from "./components/private-route/PrivateRoute";
 import Dashboard from "./components/dashboard/Dashboard";
@@ -26,7 +26,7 @@ if (localStorage.jwtToken) {
     // Logout user
     store.dispatch(logoutUser());
     // Redirect to login
-    window.location.href = "./login";
+    window.location.href = "./admin";
   }
 }
 class App extends Component {
@@ -38,7 +38,7 @@ class App extends Component {
             <NavigationBar />
             <Route exact path="/" component={Landing} />
             {/* <Route exact path="/register" component={Register} /> */}
-            <Route exact path="/login" component={Login} />
+            <Route exact path="/admin" component={Login} />
             <Switch>
               <PrivateRoute exact path="/dashboard" component={Dashboard} />
             </Switch>

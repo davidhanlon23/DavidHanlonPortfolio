@@ -1,58 +1,22 @@
-// import React, { Component } from "react";
-// class Landing extends Component {
-//   render() {
-//     return (
-//       <div style={{ height: "75vh" }} className="container valign-wrapper">
-//         <div className="row">
-//           <div className="col s12 center-align">
-//             <h4>
-//               <b>Build</b> a login/auth app with the{" "}
-//               <span style={{ fontFamily: "monospace" }}>MERN</span> stack from
-//               scratch
-//             </h4>
-//             <p className="flow-text grey-text text-darken-1">
-//               Create a (minimal) full-stack app with user authentication via
-//               passport and JWTs
-//             </p>
-//             <br />
-//             <a
-//               style={{
-//                 width: "150px",
-//                 borderRadius: "3px",
-//                 letterSpacing: "1.5px"
-//               }}
-//               className="btn btn-large waves-effect waves-light hoverable blue accent-3"
-//             >
-//               Register
-//             </a>
-//             <a
-//               style={{
-//                 marginLeft: "2rem",
-//                 width: "150px",
-//                 borderRadius: "3px",
-//                 letterSpacing: "1.5px"
-//               }}
-//               className="btn btn-large waves-effect white hoverable black-text"
-//             >
-//               Log In
-//             </a>
-//           </div>
-//         </div>
-//       </div>
-//     );
-//   }
-// }
-// export default Landing;
 
-import React, { Component } from "react";
-import { Link } from "react-router-dom";
+
+import React /*, { Component }*/ from "react";
+//import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 import { /*Link,*/ withRouter } from "react-router-dom";
 //import { Redirect } from "react-router-dom";
 import { connect } from "react-redux";
 import { logoutUser } from "../actions/authActions";
+//import PageIntro from "../components/PageIntro/pageIntro";
+import AboutMe from "../components/AboutMe/aboutMe";
+import Experience from "../components/WorkEduExp/experience";
+//import Projects from "../components/Projects/projects";
+//import References from "../components/References/references";
+import ContactMe from "../components/ContactForm/contactForm";
+import Footer from "../components/Footer/footer";
+//import styles from './LandingPageCSS/landing.css';
 
-class Landing extends Component {
+class Landing extends React.Component {
   constructor() {
     super();
     this.state = {
@@ -69,7 +33,11 @@ class Landing extends Component {
   }
 
   componentWillUnmount() {
-    this.state.isMounted = false;
+    //this.state.isMounted = false;
+    this.setState({
+      isMounted: false,
+   });
+
   }
 
   componentWillUpdate() {
@@ -80,35 +48,46 @@ class Landing extends Component {
 
   render() {
     return (
-      <div style={{ height: "75vh" }} className="container valign-wrapper">
-        <div className="row">
-          <div className="col s12 center-align">
-            {/* <Link
-              to="/register"
-              style={{
-                width: "150px",
-                borderRadius: "3px",
-                letterSpacing: "1.5px"
-              }}
-              className="btn btn-large waves-effect waves-light hoverable blue accent-3 white-text"
-            >
-              Register
-            </Link> */}
-            <Link
-              to="/login"
-              style={{
-                marginLeft: "2rem",
-                width: "150px",
-                borderRadius: "3px",
-                letterSpacing: "1.5px"
-              }}
-              className="btn btn-large waves-effect white hoverable black-text"
-            >
-              Log In
-            </Link>
-          </div>
-        </div>
+      <div>
+{/* 
+        <div className="row" id="PageIntro"><PageIntro></PageIntro></div> */}
+        <div className="row" id="AboutMe"><AboutMe></AboutMe></div>
+        
+
+
+        {/* <div style={{ height: "75vh" }} className="container valign-wrapper">
+                <div className="row">
+                  <div className="col s12 center-align">
+                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+					   Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+					   nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+					   reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+					   pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+					   qui officia deserunt mollit anim id est laborum Lorem ipsum dolor sit
+					   amet, consectetur adipiscing elit, 
+					   sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+					   Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+					   nisi ut aliquip ex ea commodo consequat
+                    
+                  </div>
+                </div>
+                
+          </div> */}
+
+      <div className="row" id="Experience">
+  
+            <Experience></Experience>
+         
+        
+      </div>    
+         
+      
+      <div className="row" id="ContactMe"><ContactMe></ContactMe></div>
+          
+      
+      <Footer></Footer>
       </div>
+     
     );
   }
 }
