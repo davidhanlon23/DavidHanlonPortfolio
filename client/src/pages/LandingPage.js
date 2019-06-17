@@ -9,9 +9,11 @@ import { connect } from "react-redux";
 import { logoutUser } from "../actions/authActions";
 //import PageIntro from "../components/PageIntro/pageIntro";
 import AboutMe from "../components/AboutMe/aboutMe";
-import Experience from "../components/WorkEduExp/experience";
+import Education from "../components/Education/education";
+import Experience from "../components/Experience/experience";
 //import Projects from "../components/Projects/projects";
 //import References from "../components/References/references";
+import TechSkills from "../components/TechSkills/techskills";
 import ContactMe from "../components/ContactForm/contactForm";
 import Footer from "../components/Footer/footer";
 //import styles from './LandingPageCSS/landing.css';
@@ -49,12 +51,6 @@ class Landing extends React.Component {
   render() {
     return (
       <div>
-{/* 
-        <div className="row" id="PageIntro"><PageIntro></PageIntro></div> */}
-        <div className="row" id="AboutMe"><AboutMe></AboutMe></div>
-        
-
-
         {/* <div style={{ height: "75vh" }} className="container valign-wrapper">
                 <div className="row">
                   <div className="col s12 center-align">
@@ -73,18 +69,19 @@ class Landing extends React.Component {
                 </div>
                 
           </div> */}
-
-      <div className="row" id="Experience">
-  
-            <Experience></Experience>
-         
+      <AboutMe></AboutMe>
+      <Education></Education>
+      <Experience></Experience> 
+      <TechSkills></TechSkills>  
+      <ContactMe></ContactMe>
+      <div></div>
+      <div className="backToTop" style={{opacity: 0.85}}>
+        <a href="/">
+          <i className="fa fa-arrow-up"></i>
+        </a>
         
-      </div>    
-         
-      
-      <div className="row" id="ContactMe"><ContactMe></ContactMe></div>
+      </div>
           
-      
       <Footer></Footer>
       </div>
      

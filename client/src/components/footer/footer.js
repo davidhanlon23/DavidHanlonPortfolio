@@ -4,21 +4,23 @@ import {NavLink} from 'react-router-dom';
 
 const Footer = () => {
     return (
-   
+   	/* <li><Link to="/admin">Admin Login</Link></li> */
     
-    <section id="footer">
+    <section className="newCss" id="footer">
 		<div className="container">
 			<div className="row text-center text-xs-center text-sm-left text-md-left">
 				<div className="col-xs-12 col-sm-4 col-md-4">
 					<h5> Quick Links</h5>
 					<ul className="list-unstyled quick-links">
-                        <li><NavLink exact ={true} to ='/'><i className="fa fa-angle-double-right"></i> Home</NavLink></li>
-                        <li><NavLink exact ={true} to ='/#PageIntro'><i className="fa fa-angle-double-right"></i> Page Intro</NavLink></li>
-                        <li><NavLink exact ={true} to ='/#AboutMe'><i className="fa fa-angle-double-right"></i> About Me</NavLink></li>
-                        <li><NavLink exact ={true} to ='/#Experience'><i className="fa fa-angle-double-right"></i>Experience</NavLink></li>
-						<li><NavLink exact ={true} to ='/#ContactMe'><i className="fa fa-angle-double-right"></i>Contact Me</NavLink></li>
+						<li><a href="#about"><i className="fa fa-angle-double-right"></i> About Me</a></li>
+						<li><a href="#education"><i className="fa fa-angle-double-right"></i> Education</a></li>
+						<li><a href="#experience"><i className="fa fa-angle-double-right"></i> Internship Experience</a></li>
+
+						{/* <li><a href="#projects"><i className="fa fa-angle-double-right"></i> Projects</a></li>
+						<li><a href="#references"><i className="fa fa-angle-double-right"></i> References</a></li> */}
+						<li><a href="#contact"><i className="fa fa-angle-double-right"></i> Contact Me</a></li>
 						<li><NavLink exact ={true} to ='/admin'><i className="fa fa-angle-double-right"></i>Admin Login</NavLink></li>
-						{/* <li><Link to="/admin">Admin Login</Link></li> */}
+					
                     </ul>
 				</div>
 				<div className="col-xs-12 col-sm-8 col-md-8">
@@ -53,7 +55,7 @@ const Footer = () => {
 			<div className="row">
 				<div className="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
 		
-					<p className="h6">This Portfolio was constructed by David M. Hanlon</p>
+					<p className="h6">This Portfolio was constructed by Towson University Graduate, David M. Hanlon</p>
 				</div>
 				<hr></hr>
 			</div>	

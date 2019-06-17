@@ -68,9 +68,185 @@ header div.sub-title {
     background-color: red !important;
 }
 
+#workInfo{
+    padding-bottom:50px;
+}
 
+/*About Me CSS*/
 
+#about {
+    /* background: #007b5e !important; */
+    /* background: #000 !important; */
+    background:#fff !important;
+    /* border-top: 2px solid black; */
+}
+#about p {
+    /* color:#ffffff; */
+    color:#000;
+  
+}
+#about h5{
+padding-left: 10px;
+    /* border-left: 3px solid #eeeeee; */
+    border-left: 3px solid #b3b3b3;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    /* color:#ffffff; */
+    color:#000;
+}
+#about a {
+    /* color: #ffffff; */
+    color: #000;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#about ul.social li{
+padding: 3px 0;
+}
+#about ul.social li a i {
+    margin-right: 5px;
+font-size:25px;
+-webkit-transition: .5s all ease;
+-moz-transition: .5s all ease;
+transition: .5s all ease;
+}
+#about ul.social li:hover a i {
+font-size:30px;
+margin-top:-10px;
+}
+#about ul.social li a,
+#about ul.quick-links li a{
+/* color:#ffffff; */
+color:#000;
+}
+#about ul.social li a:hover{
+/* color:#eeeeee; */
+color:#b3b3b3;
+/* color:#c0c0c0; */
+}
+#about ul.quick-links li{
+padding: 3px 0;
+-webkit-transition: .5s all ease;
+-moz-transition: .5s all ease;
+transition: .5s all ease;
+}
+#about ul.quick-links li:hover{
+padding: 3px 0;
+margin-left:5px;
+font-weight:700;
+}
+#about ul.quick-links li a i{
+margin-right: 5px;
+}
+#about ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+#about ul{
+    padding-top:30px;
+}
 
+#about li{
+    padding-bottom: 20px !important;
+}
+
+/**/
+
+/*Education CSS*/
+/**/ 
+
+/*Experience CSS*/
+
+/*Contact Form CSS */
+#contact {
+    /* background: #007b5e !important; */
+    /* background: #000 !important; */
+    background:#fff !important;
+    /* border-top: 2px solid black; */
+}
+#contact p {
+    /* color:#ffffff; */
+    color:#000;
+    display: inline;
+}
+#contact h5{
+padding-left: 10px;
+    /* border-left: 3px solid #eeeeee; */
+    border-left: 3px solid #b3b3b3;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    /* color:#ffffff; */
+    color:#000;
+}
+#contact a {
+    /* color: #ffffff; */
+    color: #000;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#contact ul.social li{
+padding: 3px 0;
+}
+#contact ul.social li a i {
+    margin-right: 5px;
+font-size:25px;
+-webkit-transition: .5s all ease;
+-moz-transition: .5s all ease;
+transition: .5s all ease;
+}
+#contact ul.social li:hover a i {
+font-size:30px;
+margin-top:-10px;
+}
+#contact ul.social li a,
+#contact ul.quick-links li a{
+/* color:#ffffff; */
+color:#000;
+}
+#contact ul.social li a:hover{
+/* color:#eeeeee; */
+color:#b3b3b3;
+/* color:#c0c0c0; */
+}
+#contact ul.quick-links li{
+padding: 3px 0;
+-webkit-transition: .5s all ease;
+-moz-transition: .5s all ease;
+transition: .5s all ease;
+}
+#contact ul.quick-links li:hover{
+padding: 3px 0;
+margin-left:5px;
+font-weight:700;
+}
+#contact ul.quick-links li a i{
+margin-right: 5px;
+}
+#contact ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+#contact ul{
+    padding-top:30px;
+}
+
+#contact li{
+    padding-bottom: 20px !important;
+}
+
+#contact form{
+    padding-top:30px;
+}
+/**/
+
+/*Technical Skills CSS*/
+#technical i{
+    font-size:100px;
+}
+.dev-icon-container{
+    padding:21px;
+}
+/**/
 
 /* Footer CSS*/
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
@@ -85,22 +261,29 @@ section .section-title {
     margin-bottom: 50px;
     text-transform: uppercase;
 }
+
 #footer {
     /* background: #007b5e !important; */
-    background: #000 !important;
+    /* background: #000 !important; */
+    background:#fff !important;
+    /* border-top: 2px solid black; */
 }
 #footer p {
-    color:#ffffff;
+    /* color:#ffffff; */
+    color:#000;
 }
 #footer h5{
 padding-left: 10px;
-    border-left: 3px solid #eeeeee;
+    /* border-left: 3px solid #eeeeee; */
+    border-left: 3px solid #b3b3b3;
     padding-bottom: 6px;
     margin-bottom: 20px;
-    color:#ffffff;
+    /* color:#ffffff; */
+    color:#000;
 }
 #footer a {
-    color: #ffffff;
+    /* color: #ffffff; */
+    color: #000;
     text-decoration: none !important;
     background-color: transparent;
     -webkit-text-decoration-skip: objects;
@@ -121,10 +304,13 @@ margin-top:-10px;
 }
 #footer ul.social li a,
 #footer ul.quick-links li a{
-color:#ffffff;
+/* color:#ffffff; */
+color:#000;
 }
 #footer ul.social li a:hover{
-color:#eeeeee;
+/* color:#eeeeee; */
+color:#b3b3b3;
+/* color:#c0c0c0; */
 }
 #footer ul.quick-links li{
 padding: 3px 0;
@@ -152,9 +338,68 @@ margin-right: 5px;
     margin-bottom: 10px;
 }
 }
+/*SECTION UNDERLINE*/
+.black-section-header-center{
+    color: #6c757d;
+    font-weight: bold;
+    font-family: "Montserrat",sans-serif;
+    padding-top: 60px;
+    text-align: center;
+}
+.black-section-header {
+    background-color: #6c757d;
+    color:green;
+    content: "";
+    margin: auto;
+    height: 2px;
+    width: 20%;
+    /* margin-top: 14px; */
+    display: block;
+   
+}
+/**/
 
+/*BACK TO TOP*/
+.backToTop {
+    position: fixed;
+    bottom: 30px;
+    right: 50px;
+    border-radius: 20%;
+    font-size: 25px;
+    color: white !important;
+    text-decoration: none;
+    /* background-color: #000; */
+    font-weight: bold;
+    padding: 9px;
+    cursor: pointer;
+    opacity: 0;
+    transition: 0.5s;
+}
+.backToTop a{
+    color: #000;
+    text-decoration: none;
+}
+.backToTop a:hover{
+     color:#fff; 
+     background-color: #000;
+     text-decoration:none; 
+     cursor:pointer;
+     border-radius: 20%;
+}
+/**/
 
 /*Navigation CSS*/
+nav ul li p {
+    line-height: 60px;
+    position: fixed;
+    float: left;
+    margin: 16px 46px;
+    
+    
+    font-size: 20px;
+    letter-spacing: 2px;
+
+}
 nav ul li a:hover:not(.active) { 
     /* background-color: #4357ad; */
     /* color:rgba(249, 247, 247, 0.728); */
@@ -186,8 +431,8 @@ header {
     width: 100%;
     height: 100vh;
     /* background: url(https://wallpaper.wiki/wp-content/uploads/2017/05/wallpaper.wiki-Beautiful-Full-HD-Wallpaper-Download-Free-PIC-WPE0010098.jpg) no-repeat 50% 50%; */
-    background: url('../imgs/nodeJsImg.jpg') no-repeat 50% 50%; 
-    /* background-image: url(../imgs/sampleImages/sample3.jpg); */
+    /* background: url('../imgs/nodeJsImg.jpg') no-repeat 50% 50%;  */
+    background: url('../imgs/computerBg2.jpg') no-repeat 50% 50%;
     background-size: cover;
 }
 

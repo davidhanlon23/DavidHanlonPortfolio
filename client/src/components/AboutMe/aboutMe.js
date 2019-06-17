@@ -1,26 +1,52 @@
 import React /*, { Component }*/ from "react";
-
+//import pinokioClipArt from "../../images/pinokioClipArt.png";
+//import softEngClipArt from "../../images/softEngClip.jpg";
+import softEngClipArt2 from "../../images/softEngClip2.png";
+//import IconAmazonwebservices from 'react-devicon/amazonwebservices/original';
+//import IconAngularjs from 'react-devicon/angularjs/plain';
 
 export default class AboutMe extends React.Component {
 
   render() {
     return (
-      <section>
+      <section className="page-section" id="about">
         <div className="container mb-5 mt-5">
           <div className="row">
-            <div id="about" className="col-12 col-md-8">
-              <h1 className="secondary-section-header pb-4">
+            <div className="col-12 col-md-12">
+              <h1 className="secondary-section-header pb-4 text-center">
                   About Me
               </h1>
-              <p className="h4 mb-4 font-weight-bold">Hi, I am David Hanlon,</p>
-              <div className="content-spacing gray-600">
-                <p>I am an ambitious, optimistic, and dependable Junior Level Software Engineer with a passion for developing software and pushing the limits of my current programming and problem solving skillset. </p>
-                <p>Seeking to become a versatile and selfless member of a high performing software engineering team that is passionate about developing and deploying quality software in order to help your organization to reach its optimal vision</p>
-                <p></p>
-              </div>
- 
             </div>
           </div>
+
+          
+
+          <div className="row">
+            <div className="col-12 col-md-8">
+              <p className="h4 mb-4 font-weight-bold">Hi, I am David Hanlon.</p>
+              <div className="content-spacing gray-600">
+                <p>I am an ambitious, optimistic, and dependable Junior Level Software Engineer with a passion for developing software and pushing the limits of my current programming and problem solving skillset. </p>
+                <br></br>
+                <p>Seeking to become a versatile and selfless member of a high performing software engineering team that is passionate about developing and deploying quality software in order to help your organization to reach its optimal vision.</p>
+                <p></p>
+              </div>
+            </div>
+            <div className="col-12 col-md-4">
+              <img alt="pinokio clip art" src ={softEngClipArt2} height="300px" width="300px"></img>
+            </div>
+          </div>
+          
+          <div className="row">
+            <div className="col-12 col-md-12">
+              <ul className="list-unstyled list-inline social text-center">
+                <li className="list-inline-item"><a href="https://www.facebook.com/david.r.hanlon.5"><i className="fa fa-facebook"></i></a></li>
+                <li className="list-inline-item"><a href="https://github.com/davidhanlon23"><i className="fa fa-github"></i></a></li>
+                <li className="list-inline-item"><a href="https://www.linkedin.com/in/david-hanlon-4a6b1b131/"><i className="fa fa-linkedin"></i></a></li>
+                <li className="list-inline-item"><a href="https://www.instagram.com/kingdavid.xo"><i className="fa fa-instagram"></i></a></li> 
+              </ul>
+            </div>
+          </div>
+
         </div>
       </section>
     );
