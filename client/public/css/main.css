@@ -113,6 +113,8 @@ header div.sub-title {
 #about p {
     /* color:#ffffff; */
     color:#000;
+    font-size: 20px;
+    font-weight: normal;
   
 }
 #about h5{
@@ -312,7 +314,14 @@ section .section-title {
     margin-bottom: 50px;
     text-transform: uppercase;
 }
-
+#textLink a:hover{
+    color:lightgreen !important;
+}
+#textLink a{
+    text-decoration: none;
+    color:salmon!important;
+    font-weight:bold;
+}
 #footer {
     /* background: #007b5e !important; */
     /* background: #000 !important; */
@@ -486,7 +495,12 @@ body {
     background: url('../imgs/computerBg2.jpg') no-repeat 50% 50%;
     background-size: cover;
 }
-
+.downloadResumeButton{
+    width:100px;
+    height:100px;
+    background-color:red;
+    color: lightgreen;
+}
 .content {
     width: 94%;
     margin: 4em auto;
