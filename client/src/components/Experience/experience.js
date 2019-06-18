@@ -37,8 +37,8 @@ export default class Experience extends React.Component {
          
 
           <div className="row" id="workInfo">
-            <div className="col-12 col-md-8">
-              <h2>Cybrary</h2>
+            <div id="company1" className="col-12 col-md-8">
+              <a href="https://www.cybrary.it"><h2>Cybrary</h2></a>
               <p>
                 <i>
                   Cybrary is an IT/Cybersecurity training and career development platform
@@ -46,7 +46,7 @@ export default class Experience extends React.Component {
                    worldwide
                 </i>
               </p>
-
+              
               <ul className="list-unstyled list-inline">
                 <li className="list-inline-item text-left"><FontAwesomeIcon icon={faCalendarAlt} color="#000000"/>&nbsp;&nbsp;June 2018 - August 2018</li>
                 <li className="list-inline-item text-right"> <FontAwesomeIcon icon={faMapMarkerAlt} color="#000000"/>&nbsp;&nbsp;Greenbelt, MD</li>
@@ -79,17 +79,21 @@ export default class Experience extends React.Component {
           </div>
 
           <div className="row" id="workInfo">
-            <div className="col-12 col-md-8">
-              <h2>Electronic Transaction Systems (ETS)</h2>
+            <div id="company2" className="col-12 col-md-8">
+              <a href="http://www.elavonpayments.com"><h2>Electronic Transaction Systems (ETS)</h2></a>
               <p>
                 <i>
-                  ETS is an international corporation that offers merchant
+                  ETS, now known as Elavon Payments and Emoney is an international corporation that offers merchant
                   services to clients seeking comprehensive Payment Card
                   Industry (PCI)-compliant merchant processing
                   solutions.
                 </i>
               </p>
-              <p>June 2017 - August 2017</p>
+              <ul className="list-unstyled list-inline">
+                <li className="list-inline-item text-left"><FontAwesomeIcon icon={faCalendarAlt} color="#000000"/>&nbsp;&nbsp;June 2017 - August 2017</li>
+                <li className="list-inline-item text-right"> <FontAwesomeIcon icon={faMapMarkerAlt} color="#000000"/>&nbsp;&nbsp;Berlin, MD</li>   
+              </ul>
+            
               <ul>
                 <li>
                     Most of internship consisted of individual research using online 
@@ -116,16 +120,22 @@ export default class Experience extends React.Component {
 
 
           <div className="row" id="workInfo">
-            <div className="col-12 col-md-8" >
-              <h2>Sprout Creatives</h2>
+            <div id="company3" className="col-12 col-md-8" >
+              <a href="https://www.sproutcreatives.com"><h2>Sprout Creatives</h2></a>
               <p>
                 <i>
                   Sprout Creatives is a full-service website and graphic
                   design firm that specializes in growing small businesses.
                 </i>
               </p>
+              <ul className="list-unstyled list-inline">
+                <li className="list-inline-item text-left"><FontAwesomeIcon icon={faCalendarAlt} color="#000000"/>&nbsp;&nbsp;June 2015 - August 2015</li>
+                <li className="list-inline-item text-right"> <FontAwesomeIcon icon={faMapMarkerAlt} color="#000000"/>&nbsp;&nbsp;Berlin, MD</li>
+               
+               
+              </ul>
               
-              <p>June 2015 - August 2015</p>
+              
               <ul>
                 <li>
                   Used HTML5, CSS, JavaScript, Business Catalyst, Adobe’s

@@ -40,10 +40,12 @@ export default class AboutMe extends React.Component {
           <div className="row">
             <div className="col-12 col-md-12">
               <ul className="list-unstyled list-inline social text-left">
-                <li className="list-inline-item"><a href="https://www.facebook.com/david.r.hanlon.5"><i className="fa fa-facebook"></i></a></li>
-                <li className="list-inline-item"><a href="https://github.com/davidhanlon23"><i className="fa fa-github"></i></a></li>
-                <li className="list-inline-item"><a href="https://www.linkedin.com/in/david-hanlon-4a6b1b131/"><i className="fa fa-linkedin"></i></a></li>
-                <li className="list-inline-item"><a href="https://www.instagram.com/kingdavid.xo"><i className="fa fa-instagram"></i></a></li> 
+                <li className="list-inline-item"><a href="https://www.facebook.com/david.r.hanlon.5"><i className="fa fa-facebook" id="facebook"></i></a></li>
+                <li className="list-inline-item"><a href="https://github.com/davidhanlon23"><i className="fa fa-github twitter" id="github"></i></a></li>
+                <li className="list-inline-item"><a href="https://www.linkedin.com/in/david-hanlon-4a6b1b131/"><i className="fa fa-linkedin" id="linkedin"></i></a></li>
+                {/* <li className="list-inline-item"><a href="https://www.instagram.com/kingdavid.xo"><i className="fa fa-instagram" id="instagram"></i></a></li>  */}
+                <li className="list-inline-item"><a href="mailto:davidhanlon23@gmail.com"><i className="fa fa-envelope" id="email"></i></a></li>
+
               </ul>
             </div>
           </div>

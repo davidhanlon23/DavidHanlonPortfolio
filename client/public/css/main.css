@@ -73,7 +73,37 @@ header div.sub-title {
 }
 
 /*About Me CSS*/
-
+#linkedin{
+    color:#0073B3;
+}
+#facebook{
+    color:#3b5998;
+}
+#github{
+    color:#495057;
+}
+#instagram{
+    /* border-radius: 30px;
+    color:white;
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    box-shadow: 0px 3px 10px rgba(0,0,0,.25);     */
+    display: inline-block;
+  width: .9em;
+  height: .9em;
+ 
+  border-radius: 10px;
+  color: #fff;
+  font-size: .3em;
+  line-height: .9em;
+  text-align: center;
+  background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+}
+#email{
+    color:lightsalmon;
+}
 #about {
     /* background: #007b5e !important; */
     /* background: #000 !important; */
@@ -106,20 +136,16 @@ padding: 3px 0;
 }
 #about ul.social li a i {
     margin-right: 5px;
-font-size:25px;
+font-size:3em;
 -webkit-transition: .5s all ease;
 -moz-transition: .5s all ease;
 transition: .5s all ease;
 }
 #about ul.social li:hover a i {
-font-size:30px;
+font-size:2em;
 margin-top:-10px;
 }
-#about ul.social li a,
-#about ul.quick-links li a{
-/* color:#ffffff; */
-color:#000;
-}
+
 #about ul.social li a:hover{
 /* color:#eeeeee; */
 color:#b3b3b3;
@@ -157,6 +183,31 @@ margin-right: 5px;
 
 /*Experience CSS*/
 
+#company1 a{
+    color:#000;
+    text-decoration:none;
+}
+#company1 a:hover{
+    color:green;
+}
+
+#company2 a{
+    text-decoration:none;
+    color:black;
+}
+#company2 a:hover{
+  
+    color:blue;
+}
+#company3 a{
+    text-decoration:none;
+    color:black;
+}
+#company3 a:hover{
+  
+    color:lightgreen;
+}
+/**/
 /*Contact Form CSS */
 #contact {
     /* background: #007b5e !important; */
