@@ -2,6 +2,22 @@ import React /*, { Component }*/ from "react";
 import cybraryLogo from '../../images/cybrary3.png'
 import etsLogo from '../../images/etsLogo.png';
 import sproutLogo1 from '../../images/sproutLogo1.png';
+
+//
+
+
+
+
+
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+import { faCalendarAlt} from '@fortawesome/free-solid-svg-icons';
+import { faMapMarkerAlt} from '@fortawesome/free-solid-svg-icons';
+//import { faInvision} from '@fortawesome/free-brands-svg-icons';
+
+//
+
 export default class Experience extends React.Component {
 
   render() {
@@ -30,6 +46,14 @@ export default class Experience extends React.Component {
                    worldwide
                 </i>
               </p>
+
+              <ul className="list-unstyled list-inline">
+                <li className="list-inline-item text-left"><FontAwesomeIcon icon={faCalendarAlt} color="#000000"/>&nbsp;&nbsp;June 2018 - August 2018</li>
+                <li className="list-inline-item text-right"> <FontAwesomeIcon icon={faMapMarkerAlt} color="#000000"/>&nbsp;&nbsp;Greenbelt, MD</li>
+               
+               
+              </ul>
+             
               <ul>
                 <li>
                     Automated the Executive Dashboard using JavaScript and Google
@@ -65,6 +89,7 @@ export default class Experience extends React.Component {
                   solutions.
                 </i>
               </p>
+              <p>June 2017 - August 2017</p>
               <ul>
                 <li>
                     Most of internship consisted of individual research using online 
@@ -99,6 +124,8 @@ export default class Experience extends React.Component {
                   design firm that specializes in growing small businesses.
                 </i>
               </p>
+              
+              <p>June 2015 - August 2015</p>
               <ul>
                 <li>
                   Used HTML5, CSS, JavaScript, Business Catalyst, Adobe’s

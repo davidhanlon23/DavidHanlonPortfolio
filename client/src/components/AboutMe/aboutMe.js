@@ -1,7 +1,8 @@
 import React /*, { Component }*/ from "react";
 //import pinokioClipArt from "../../images/pinokioClipArt.png";
 //import softEngClipArt from "../../images/softEngClip.jpg";
-import softEngClipArt2 from "../../images/softEngClip2.png";
+//import softEngClipArt2 from "../../images/softEngClip2.png";
+import profilePicture from "../../images/profilePic.png";
 //import IconAmazonwebservices from 'react-devicon/amazonwebservices/original';
 //import IconAngularjs from 'react-devicon/angularjs/plain';
 
@@ -32,13 +33,13 @@ export default class AboutMe extends React.Component {
               </div>
             </div>
             <div className="col-12 col-md-4">
-              <img alt="pinokio clip art" src ={softEngClipArt2} height="300px" width="300px"></img>
+              <img alt="profile" src ={profilePicture} height="300px" width="300px"></img>
             </div>
           </div>
           
           <div className="row">
             <div className="col-12 col-md-12">
-              <ul className="list-unstyled list-inline social text-center">
+              <ul className="list-unstyled list-inline social text-left">
                 <li className="list-inline-item"><a href="https://www.facebook.com/david.r.hanlon.5"><i className="fa fa-facebook"></i></a></li>
                 <li className="list-inline-item"><a href="https://github.com/davidhanlon23"><i className="fa fa-github"></i></a></li>
                 <li className="list-inline-item"><a href="https://www.linkedin.com/in/david-hanlon-4a6b1b131/"><i className="fa fa-linkedin"></i></a></li>

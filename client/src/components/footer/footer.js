@@ -15,7 +15,7 @@ const Footer = () => {
 						<li><a href="#about"><i className="fa fa-angle-double-right"></i> About Me</a></li>
 						<li><a href="#education"><i className="fa fa-angle-double-right"></i> Education</a></li>
 						<li><a href="#experience"><i className="fa fa-angle-double-right"></i> Internship Experience</a></li>
-
+						<li><a href="#technical"><i className="fa fa-angle-double-right"></i> Technical Skills</a></li>
 						{/* <li><a href="#projects"><i className="fa fa-angle-double-right"></i> Projects</a></li>
 						<li><a href="#references"><i className="fa fa-angle-double-right"></i> References</a></li> */}
 						<li><a href="#contact"><i className="fa fa-angle-double-right"></i> Contact Me</a></li>

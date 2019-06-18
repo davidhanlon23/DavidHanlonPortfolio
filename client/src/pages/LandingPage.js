@@ -3,11 +3,11 @@
 import React /*, { Component }*/ from "react";
 //import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
-import { /*Link,*/ withRouter } from "react-router-dom";
+import {  withRouter } from "react-router-dom";
 //import { Redirect } from "react-router-dom";
 import { connect } from "react-redux";
 import { logoutUser } from "../actions/authActions";
-//import PageIntro from "../components/PageIntro/pageIntro";
+import PageIntro from "../components/PageIntro/pageIntro";
 import AboutMe from "../components/AboutMe/aboutMe";
 import Education from "../components/Education/education";
 import Experience from "../components/Experience/experience";
@@ -16,7 +16,7 @@ import Experience from "../components/Experience/experience";
 import TechSkills from "../components/TechSkills/techskills";
 import ContactMe from "../components/ContactForm/contactForm";
 import Footer from "../components/Footer/footer";
-//import styles from './LandingPageCSS/landing.css';
+import { HashLink as Link } from 'react-router-hash-link';
 
 class Landing extends React.Component {
   constructor() {
@@ -51,24 +51,7 @@ class Landing extends React.Component {
   render() {
     return (
       <div>
-        {/* <div style={{ height: "75vh" }} className="container valign-wrapper">
-                <div className="row">
-                  <div className="col s12 center-align">
-                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-					   Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-					   nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-					   reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-					   pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-					   qui officia deserunt mollit anim id est laborum Lorem ipsum dolor sit
-					   amet, consectetur adipiscing elit, 
-					   sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-					   Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-					   nisi ut aliquip ex ea commodo consequat
-                    
-                  </div>
-                </div>
-                
-          </div> */}
+      <PageIntro></PageIntro>
       <AboutMe></AboutMe>
       <Education></Education>
       <Experience></Experience> 
@@ -76,10 +59,8 @@ class Landing extends React.Component {
       <ContactMe></ContactMe>
       <div></div>
       <div className="backToTop" style={{opacity: 0.85}}>
-        <a href="/">
-          <i className="fa fa-arrow-up"></i>
-        </a>
-        
+      
+      <Link to="#intro"><i className="fa fa-arrow-up"> </i></Link>
       </div>
           
       <Footer></Footer>

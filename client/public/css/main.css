@@ -241,7 +241,7 @@ margin-right: 5px;
 
 /*Technical Skills CSS*/
 #technical i{
-    font-size:100px;
+    font-size:150px;
 }
 .dev-icon-container{
     padding:21px;
@@ -249,7 +249,7 @@ margin-right: 5px;
 /**/
 
 /* Footer CSS*/
-@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/5.9.0/css/font-awesome.min.css');
 section {
     padding: 60px 0;
 }
@@ -427,7 +427,7 @@ body {
     font-weight: lighter;
 }
 
-header {
+#intro {
     width: 100%;
     height: 100vh;
     /* background: url(https://wallpaper.wiki/wp-content/uploads/2017/05/wallpaper.wiki-Beautiful-Full-HD-Wallpaper-Download-Free-PIC-WPE0010098.jpg) no-repeat 50% 50%; */

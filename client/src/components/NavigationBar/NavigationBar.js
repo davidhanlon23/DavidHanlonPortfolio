@@ -26,6 +26,7 @@ export default class NavigationBar extends React.Component  {
                       <li><Link   to="#about"> About Me </Link></li>
                       <li><Link   to="#education"> Education </Link></li>
                       <li><Link   to="#experience"> Experience</Link></li>
+                      <li><Link   to="#technical"> Skills</Link></li>
                       <li><Link   to="#contact"> Contact Me</Link></li>
                       
                       {/* <li><a activeClassName='active' href="#about"> About Me</a></li>
