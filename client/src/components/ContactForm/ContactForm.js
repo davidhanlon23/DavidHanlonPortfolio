@@ -67,7 +67,7 @@ export default class ContactMe extends React.Component {
                 <input type="text" name="firstName" id="firstName" placeholder="First Name" className="form-control input-lg" required/>
                 <input type="text" name="lastName" id="lastName" placeholder="Last Name" className="form-control input-lg" required/>
                 <input type="email" name="email" id="email" placeholder="Email Address" className="form-control input-lg" required value={this.state.email} onChange={this.handleEmailChange} onBlur={this.handleBlur("email")}/>
-                <input type="tel" name="phone" id="phone" placeholder="###-###-####" className="input-field col s12" required/>
+                <input type="tel" name="phone" id="phone" placeholder="###-###-####" className="input-field col s12" />
                 <input type="text" name="help" id="help" placeholder="How can I assist you?" className="form-control input-lg" required/>
                 <button
                             style={{
@@ -77,7 +77,7 @@ export default class ContactMe extends React.Component {
                               marginTop: "2rem",
                               zIndex: 0
                             }}
-                            disabled={isDisabled} type="submit" className="btn btn-large waves-effect waves-light hoverable blue accent-3">
+                            disabled={isDisabled} type="submit" className="btn btn-large waves-effect waves-light hoverable black accent-3">
                             {" "}Contact Us{" "}
                   </button>
               </form>

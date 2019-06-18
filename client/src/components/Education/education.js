@@ -33,8 +33,9 @@ export default class Education extends React.Component {
             </div>
 
             <div className="row">    
-                <div className="col-12 col-md-8">    
-                    <h3>Pocomoke High School</h3>
+                <div id="school1" className="col-12 col-md-8">    
+                    <a href="http://www.pocomokehighschool.org/"><h3>Pocomoke High School</h3></a>
+                    
                     <p> Pocomoke High School is the primary high school I was enrolled at where I studied 
                         Core classes and AP Computer Science </p>
                 </div>
@@ -45,10 +46,11 @@ export default class Education extends React.Component {
               </div>
 
             <div className="row">
-                <div className="col-12 col-md-8">
+                <div id="school2"className="col-12 col-md-8">
                 <p className=""><FontAwesomeIcon icon={faCalendarAlt} color="#000000"/>  &nbsp; August 2011 - May 2015</p>
                     <p className=""><FontAwesomeIcon icon={faGraduationCap} color="#000000"/>&nbsp; GPA: 4.25/5.00</p>
-                    <h3>Worcester Technical High School</h3>
+                   
+                    <a href="https://worcestertechhs.com/"><h3>Worcester Technical High School</h3></a>
                     <p> Worcester Technical High School is vocational high school in Worcester
                         County, Maryland that offers STEM and trade related courses. I attended 
                         WTHS to complete the 4 year Pre-Engineering program while concurrently 
@@ -60,12 +62,14 @@ export default class Education extends React.Component {
             </div>  
 
             <div className="row">
-                <div className="col-12 col-md-8">
+                <div  id="school3" className="col-12 col-md-8">
                     {/* <h2>College</h2> */}
                     <p className="h4 mb-4 font-weight-bold">College</p> 
                     <p><FontAwesomeIcon icon={faCalendarAlt} color="#000000"/>&nbsp;&nbsp; August 2015 - May 2019</p>
                     <p className=""><FontAwesomeIcon icon={faGraduationCap} color="#000000"/>&nbsp; GPA: 3.16/4.00</p>  
-                    <h3>Towson University</h3>
+                    
+                    {/* <div id="school3"></div> */}
+                    <a href="https://www.towson.edu"><h3>Towson University</h3></a>
                     <p> Towson University is a Liberal Arts university in northern 
                         Baltimore County, Maryland where I completed my Bachelor's degree
                         in Computer Science</p>

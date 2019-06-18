@@ -1,10 +1,6 @@
 import React /*, { Component }*/ from "react";
-//import pinokioClipArt from "../../images/pinokioClipArt.png";
-//import softEngClipArt from "../../images/softEngClip.jpg";
-//import softEngClipArt2 from "../../images/softEngClip2.png";
 import profilePicture from "../../images/profilePic.png";
-//import IconAmazonwebservices from 'react-devicon/amazonwebservices/original';
-//import IconAngularjs from 'react-devicon/angularjs/plain';
+
 
 export default class AboutMe extends React.Component {
 
@@ -17,6 +13,8 @@ export default class AboutMe extends React.Component {
               <h1 className="secondary-section-header pb-4 text-center">
                   About Me
               </h1>
+             
+              
             </div>
           </div>
 

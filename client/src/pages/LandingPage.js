@@ -8,6 +8,7 @@ import {  withRouter } from "react-router-dom";
 import { connect } from "react-redux";
 import { logoutUser } from "../actions/authActions";
 import PageIntro from "../components/PageIntro/pageIntro";
+//import resume from "../downloads/PostGradResume2019PDF.pdf";
 import AboutMe from "../components/AboutMe/aboutMe";
 import Education from "../components/Education/education";
 import Experience from "../components/Experience/experience";
@@ -59,10 +60,14 @@ class Landing extends React.Component {
       <ContactMe></ContactMe>
       <div></div>
       <div className="backToTop" style={{opacity: 0.85}}>
-      
-      <Link to="#intro"><i className="fa fa-arrow-up"> </i></Link>
+        <Link to="#intro"><i className="fa fa-arrow-up"> </i></Link>
       </div>
-          
+      
+      {/* <div className="download" style={{opacity:0.85}}>
+        <button  type="button" ><a href={resume} download>RESUME</a> </button>
+        <div id='button'></div>
+      </div> */}
+
       <Footer></Footer>
       </div>
      
