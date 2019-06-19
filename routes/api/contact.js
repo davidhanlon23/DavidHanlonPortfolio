@@ -19,7 +19,7 @@ router.post('/contactus', (req, res) => {
         }
     });
     let mailOptions = {
-        from: '"David Hanlons Contact Form" <'+req.body.email+'>',
+        from: '"David Hanlon Contact Form" <'+req.body.email+'>',
         to: 'davidhanlon23@gmail.com',
         subject: "New Message from the Contact Form",
         //text: 'From: '+req.body.email+' Phone#: '+req.body.phone+' Message: ' +req.body.help//,
