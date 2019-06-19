@@ -19,6 +19,7 @@ const Footer = () => {
 						{/* <li><a href="#projects"><i className="fa fa-angle-double-right"></i> Projects</a></li>
 						<li><a href="#references"><i className="fa fa-angle-double-right"></i> References</a></li> */}
 						<li><a href="#contact"><i className="fa fa-angle-double-right"></i> Contact Me</a></li>
+						<li><a href="http://www.hilotech.co"><i className="fa fa-angle-double-right"></i> Added Bonus :)</a></li>
 						<li><NavLink exact ={true} to ='/admin'><i className="fa fa-angle-double-right"></i>Admin Login</NavLink></li>
 					
                     </ul>

@@ -63,7 +63,7 @@ export default class ContactMe extends React.Component {
             
             <div className="col-12 col-md-6">
             <p className="h4 mb-4 font-weight-bold">Contact Form</p>
-              <form action="/api/contact/contactus" method="post">
+              <form action="/api/contact/contactme" method="post">
                 <input type="text" name="firstName" id="firstName" placeholder="First Name" className="form-control input-lg" required/>
                 <input type="text" name="lastName" id="lastName" placeholder="Last Name" className="form-control input-lg" required/>
                 <input type="email" name="email" id="email" placeholder="Email Address" className="form-control input-lg" required value={this.state.email} onChange={this.handleEmailChange} onBlur={this.handleBlur("email")}/>
@@ -78,7 +78,7 @@ export default class ContactMe extends React.Component {
                               zIndex: 0
                             }}
                             disabled={isDisabled} type="submit" className="btn btn-large waves-effect waves-light hoverable black accent-3">
-                            {" "}Contact Us{" "}
+                            {" "}Contact Me{" "}
                   </button>
               </form>
             </div>

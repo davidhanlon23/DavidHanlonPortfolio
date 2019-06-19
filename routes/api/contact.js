@@ -5,7 +5,7 @@ const path = require('path');
 const nodeMailer = require('nodemailer');
 const Contact = require("../../models/Contact");
 
-router.post('/contactus', (req, res) => {
+router.post('/contactme', (req, res) => {
     console.log(req.body);
     const newReq = new Contact(req.body);
 

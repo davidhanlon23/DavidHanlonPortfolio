@@ -46,16 +46,7 @@ main section {
     word-spacing: normal;
     
 }
-/* #admin :link:hover{
-    text-decoration: none;
-    color:white!important;
-    background-color:black;
-} */
-/* #admin :link{
-    text-decoration: none;
-    color:black!important;
-    background-color:white;
-} */
+
 #admin a{
     color:black;
     font-weight:bold;
@@ -69,14 +60,12 @@ main section {
     background-color:black;
     
 }
-/* #admin .fa-arrow-left:hover{
-    color:red;
-} */
+
 .clearfix { clear: both; }
 
 header div.sub-title {    
     border-top: #eee 1px solid;
-    /*height: 33px;*/
+ 
 }
 
 
@@ -130,13 +119,12 @@ header div.sub-title {
     color:lightsalmon;
 }
 #about {
-    /* background: #007b5e !important; */
-    /* background: #000 !important; */
+   
     background:#fff !important;
-    /* border-top: 2px solid black; */
+    
 }
 #about p {
-    /* color:#ffffff; */
+ 
     color:#000;
     font-size: 20px;
     font-weight: normal;
@@ -144,15 +132,15 @@ header div.sub-title {
 }
 #about h5{
 padding-left: 10px;
-    /* border-left: 3px solid #eeeeee; */
+   
     border-left: 3px solid #b3b3b3;
     padding-bottom: 6px;
     margin-bottom: 20px;
-    /* color:#ffffff; */
+  
     color:#000;
 }
 #about a {
-    /* color: #ffffff; */
+ 
     color: #000;
     text-decoration: none !important;
     background-color: transparent;
@@ -575,23 +563,36 @@ body {
     background: url('../imgs/computerBg2.jpg') no-repeat 50% 50%;
     background-size: cover;
 }
-#intro a{
-    /* background-color:red;
-    color: lightgreen; */
+/* #intro a{
+   
     text-decoration: none;
     text-align: center;
     color:white;
     font-weight:bold;
 }
 #intro a:hover{
-    /* background-color:blue;
-    color:pink; */
+   
     text-decoration: none;
     text-align: center;
     color:black;
    
     font-size:1em;
     font-weight:bold;
+} */
+
+#intro a{
+    
+    display: flex!important;
+    align-items: center!important;
+    justify-content: center !important;
+    vertical-align: middle!important;
+    text-align: center;
+    position:relative;
+    top:80%;
+    left:0%;
+}
+#intro a:hover{
+    text-decoration:none;
 }
 .downloadResumeBtn{
     /* width:50px;
