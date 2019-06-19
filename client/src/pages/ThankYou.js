@@ -10,7 +10,13 @@ const ThankYou = () => {
             I am excited to see you found my Portfolio! I will get back to you at my earliest conveinence and I look forward to chatting with you!
             </p>
             <br />
-            <button
+           
+                  <Link style={{
+                              textDecoration:'none',
+                              color:'#fff'
+                            }} to="/"> 
+                            
+                            <button
                             style={{
                               width: "150px",
                               borderRadius: "3px",
@@ -19,11 +25,9 @@ const ThankYou = () => {
                               zIndex: 0
                             }}
                             type="submit" className="btn btn-large waves-effect waves-light hoverable black accent-3">
-                            <Link style={{
-                              textDecoration:'none',
-                              color:'#fff'
-                            }} to="/">{" "}Home{" "}</Link>
-                  </button>
+                            {" "}Home{" "}
+                            </button>
+                  </Link>
           </div>
         </div>
       </div>
