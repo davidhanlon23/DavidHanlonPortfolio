@@ -18,7 +18,7 @@ import TechSkills from "../components/TechSkills/techskills";
 import ContactMe from "../components/ContactForm/contactForm";
 import Footer from "../components/Footer/footer";
 //import { HashLink as Link } from 'react-router-hash-link';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+//import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 class Landing extends React.Component {
   constructor() {
@@ -61,9 +61,9 @@ class Landing extends React.Component {
       <ContactMe></ContactMe>
       <div></div>
       <div className="backToTop" style={{opacity: 0.85}}>
-        <Router>
-          <Route to="#intro"><i className="fa fa-arrow-up"> </i></Route>
-        </Router>
+    
+          <a href="#intro"><i className="fa fa-arrow-up"> </i></a>
+      
           
        
         
