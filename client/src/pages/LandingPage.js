@@ -17,7 +17,7 @@ import Experience from "../components/Experience/experience";
 import TechSkills from "../components/TechSkills/techskills";
 //import ContactMe from "../components/ContactForm/contactForm";
 import ContactMe from '../components/ContactForm/ContactForm';
-import Footer from "../components/Footer/footer";
+import Footer from "../components/footer/footer";
 
 
 class Landing extends React.Component {
