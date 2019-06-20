@@ -4,21 +4,21 @@ import React /*, { Component }*/ from "react";
 //import { BrowserRouter as Link } from "react-router-dom";
 import PropTypes from "prop-types";
 import {  withRouter} from "react-router-dom";
-//import { Redirect } from "react-router-dom";
+
 import { connect } from "react-redux";
 import { logoutUser } from "../actions/authActions";
 import PageIntro from "../components/PageIntro/pageIntro";
-//import resume from "../downloads/PostGradResume2019PDF.pdf";
+
 import AboutMe from "../components/AboutMe/aboutMe";
 import Education from "../components/Education/education";
 import Experience from "../components/Experience/experience";
 //import Projects from "../components/Projects/projects";
 //import References from "../components/References/references";
 import TechSkills from "../components/TechSkills/techskills";
-import ContactMe from "../components/ContactForm/contactForm";
+//import ContactMe from "../components/ContactForm/contactForm";
+import ContactMe from '../components/ContactForm/contactForm.js';
 import Footer from "../components/Footer/footer";
-//import { HashLink as Link } from 'react-router-hash-link';
-//import { BrowserRouter as Router, Route } from 'react-router-dom';
+
 
 class Landing extends React.Component {
   constructor() {
