@@ -16,7 +16,7 @@ import Experience from "../components/Experience/experience";
 //import References from "../components/References/references";
 import TechSkills from "../components/TechSkills/techskills";
 //import ContactMe from "../components/ContactForm/contactForm";
-import ContactMe from '../components/ContactForm/contactForm.js';
+import ContactMe from '../components/ContactForm/ContactForm';
 import Footer from "../components/Footer/footer";
 
 
