@@ -1,5 +1,7 @@
 import React from 'react';
-import {Link} from "react-router-dom";
+//import {BrowserRouter as Link} from "react-router-dom";
+//import { BrowserRouter as Router, Route } from 'react-router-dom';
+
 const ThankYou = () => {
     return (
         <div style={{ height: "75vh" }} className="container valign-wrapper">
@@ -10,11 +12,11 @@ const ThankYou = () => {
             I am excited to see you found my Portfolio! I will get back to you at my earliest conveinence and I look forward to chatting with you!
             </p>
             <br />
-           
-                  <Link style={{
+          
+            <a style={{
                               textDecoration:'none',
                               color:'#fff'
-                            }} to="/"> 
+                            }} href="/"> 
                             
                             <button
                             style={{
@@ -27,7 +29,11 @@ const ThankYou = () => {
                             type="submit" className="btn btn-large waves-effect waves-light hoverable black accent-3">
                             {" "}Home{" "}
                             </button>
-                  </Link>
+              </a>
+           
+           
+         
+                 
           </div>
         </div>
       </div>

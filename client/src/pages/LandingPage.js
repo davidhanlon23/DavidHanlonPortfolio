@@ -1,9 +1,9 @@
 
 
 import React /*, { Component }*/ from "react";
-//import { Link } from "react-router-dom";
+//import { BrowserRouter as Link } from "react-router-dom";
 import PropTypes from "prop-types";
-import {  withRouter } from "react-router-dom";
+import {  withRouter} from "react-router-dom";
 //import { Redirect } from "react-router-dom";
 import { connect } from "react-redux";
 import { logoutUser } from "../actions/authActions";
@@ -17,7 +17,8 @@ import Experience from "../components/Experience/experience";
 import TechSkills from "../components/TechSkills/techskills";
 import ContactMe from "../components/ContactForm/contactForm";
 import Footer from "../components/Footer/footer";
-import { HashLink as Link } from 'react-router-hash-link';
+//import { HashLink as Link } from 'react-router-hash-link';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 class Landing extends React.Component {
   constructor() {
@@ -60,7 +61,12 @@ class Landing extends React.Component {
       <ContactMe></ContactMe>
       <div></div>
       <div className="backToTop" style={{opacity: 0.85}}>
-        <Link to="#intro"><i className="fa fa-arrow-up"> </i></Link>
+        <Router>
+          <Route to="#intro"><i className="fa fa-arrow-up"> </i></Route>
+        </Router>
+          
+       
+        
       </div>
       
       {/* <div className="download" style={{opacity:0.85}}>

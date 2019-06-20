@@ -1,5 +1,8 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+
+//import { BrowserRouter as Link } from "react-router-dom";
+//import { BrowserRouter as Router, Route } from 'react-router-dom';
+
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import { loginUser } from "../../actions/authActions";
@@ -49,12 +52,12 @@ return (
         <div className="container">
           <div style={{ marginTop: "4rem" }} className="row">
             <div className="col s8 offset-s2">
-            
-                <Link to="/" className="btn-flat waves-effect" >
-                  {/* <i className="material-icons left">keyboard_backspace</i> Back to
-                  home */}
+             
+                <a className="btn-flat waves-effect" href="/">
                   <FontAwesomeIcon id="icon1" icon={faArrowLeft} /> &nbsp;Back To Home
-                </Link>
+                </a>
+              
+                
              
               
               <div className="col s12" style={{ paddingLeft: "11.250px" }}>

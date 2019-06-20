@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+//import { BrowserRouter, Router,Route, Switch } from "react-router-dom";
 import jwt_decode from "jwt-decode";
 import setAuthToken from "./utils/setAuthToken";
 import { setCurrentUser, logoutUser } from "./actions/authActions";
@@ -34,6 +35,7 @@ class App extends Component {
   render() {
     return (
       <Provider store={store}>
+       
         <Router>
           <div className="App">
             {/* <NavigationBar /> */}
@@ -47,6 +49,8 @@ class App extends Component {
             </Switch>
           </div>
         </Router>
+       
+        
       </Provider>
     );
   }
