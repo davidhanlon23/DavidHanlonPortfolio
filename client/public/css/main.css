@@ -831,10 +831,14 @@ nav.black ul li a{
           
     }
 
-    .menu-icon {
+     .menu-icon {
           display: block!important;
+          color: rgba(0, 0, 0, 0)!important;
+
     }
-    
+    nav.black .menu-icon{
+        color: #fff!important;
+    }
     nav.black ul li a{
         color:white!important;
     }
