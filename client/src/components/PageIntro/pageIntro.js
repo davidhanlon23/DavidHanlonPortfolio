@@ -1,6 +1,7 @@
 import React /*, { Component }*/ from "react";
 //import {Link} from "react-router-dom";
-import resume from "../../downloads/PostGradResume2019PDF.pdf";
+//import resume from "../../downloads/PostGradResume2019PDF.pdf";
+import resume2 from "../../downloads/DavidHanlonResumeV2.pdf";
 //import Button from 'react-bootstrap/Button';
 export default class PageIntro extends React.Component {
 
@@ -18,7 +19,7 @@ export default class PageIntro extends React.Component {
                 <a href={resume} download><button  type="button" >RESUME</button></a> 
               </div> */}
               {/* <Link></Link> */}
-              <a href={resume} download>
+              <a href={resume2} download="DavidHanlonResume.pdf">
              
               <button
                     style={{
