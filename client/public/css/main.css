@@ -230,6 +230,9 @@ margin-right: 5px;
 #company1 a:hover{
     color:green;
 }
+#experience img{
+    margin-top:50px;
+}
 
 #company2 a{
     text-decoration:none;

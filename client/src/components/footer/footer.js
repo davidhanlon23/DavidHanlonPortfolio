@@ -1,5 +1,5 @@
 import React from 'react';
-import {NavLink} from 'react-router-dom';
+//import {NavLink} from 'react-router-dom';
 //import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -48,7 +48,7 @@ const Footer = () => {
 						My hobbies include playing/watching sports, playing video games with friends, learning
 						new technologies through the likes of Udemy and Codecademy, traveling, photography, and 
 						music production. My current career goal is focusing on being the best Software Engineer
-						that I can possibly and maximizing my potential while still at a young age. I am proud to 
+						that I can possibly be and maximizing my potential while still at a young age. I am proud to 
 						say that most of the technologies and tools I have learned besides Java, and OOP concepts
 						have all been self taught. The technologies used for the construction of this portfolio 
 						include Axios, expressJS, NodeJS, ReactJS, FontAwesome, Bootstrap, and Redux. I am always 
