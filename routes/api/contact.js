@@ -15,8 +15,8 @@ router.post('/contactme', (req, res) => {
         secure: true,
         auth: {
             user: 'noreply.reviewme@gmail.com',
-            pass: '$Cosc412ReviewMe$'
-        }
+            pass: 'kvuzmfkedbaegxtp'
+        }//kvuzmfkedbaegxtp $Cosc412ReviewMe$
     });
     let mailOptions = {
         from: '"David Hanlon Contact Form" <'+req.body.email+'>',
