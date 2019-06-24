@@ -1,11 +1,13 @@
 import React /*, { Component }*/ from "react";
 import profilePicture from "../../images/profilePic.png";
-
+import "animate.css/animate.min.css";
+import ScrollAnimation from 'react-animate-on-scroll';
 
 export default class AboutMe extends React.Component {
 
   render() {
     return (
+      <ScrollAnimation animateIn="fadeInUp" animateOnce={true} duration={1}>
       <section className="page-section" id="about">
         <div className="container mb-5 mt-5">
           <div className="row">
@@ -73,6 +75,8 @@ export default class AboutMe extends React.Component {
 
         </div>
       </section>
+      </ScrollAnimation>
+      
     );
   }
 }

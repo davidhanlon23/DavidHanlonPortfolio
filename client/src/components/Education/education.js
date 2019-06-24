@@ -6,12 +6,15 @@ import towsonLogo2 from "../../images/towsonLogo2.jpeg";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGraduationCap } from '@fortawesome/free-solid-svg-icons';
 import { faCalendarAlt} from '@fortawesome/free-solid-svg-icons';
+import "animate.css/animate.min.css";
+import ScrollAnimation from 'react-animate-on-scroll';
 
 export default class Education extends React.Component {
 
   render() {
     return (
-      <section className="page-section" id="education">
+    <ScrollAnimation animateIn="fadeInLeft" animateOnce={true} duration={1}> 
+    <section className="page-section" id="education">
         <div className="container mb-5 mt-5">
             
             <div className="row">
@@ -81,7 +84,9 @@ export default class Education extends React.Component {
               
 
         </div>       
-      </section>
+      </section>    
+    </ScrollAnimation> 
+      
     );
   }
 }

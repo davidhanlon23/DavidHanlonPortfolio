@@ -1,5 +1,7 @@
-import React /*, { Component }*/ from "react";
-//import styles from "../ContactForm/contactForm.css";
+import React  from "react";
+import "animate.css/animate.min.css";
+import ScrollAnimation from 'react-animate-on-scroll';
+
 function emailCheck(email) {
   var valid = /\S+@\S+\.\S+/;
   return { email: !valid.test(email) };
@@ -40,7 +42,8 @@ export default class ContactMe extends React.Component {
     const isDisabled = Object.keys(errors).some(x => errors[x]);
 
     return (
-      <section className="page-section" id="contact">
+      <ScrollAnimation animateIn="fadeIn" animateOnce={true} duration={1}> 
+         <section className="page-section" id="contact">
         <div className="container mb-5 mt-5">
         
         <div className="row">
@@ -86,81 +89,9 @@ export default class ContactMe extends React.Component {
           </div>
         </div>
       </section>
+      </ScrollAnimation>
+   
       
     );
   }
 }
-//export default ContactMe;
-//className="col-12 col-md-8"
-/*
- <form action="/api/contact/contactus" method="post">
-                        <div className="input-field col s12">
-                          <input
-                            type="text"
-                            name="firstName"
-                            id="firstName"
-                            placeholder="First Name"
-                            className="form-control input-lg"
-                            required
-                          />
-                        </div>
-                        <div className="input-field col s12">
-                          <input
-                            type="text"
-                            name="lastName"
-                            id="lastName"
-                            placeholder="Last Name"
-                            className="form-control input-lg"
-                            required
-                          />
-                        </div>
-                        <div className="input-field col s12">
-                          <input
-                            type="email"
-                            name="email"
-                            id="email"
-                            placeholder="Email Address"
-                            className="form-control input-lg"
-                            required
-                            value={this.state.email}
-                            onChange={this.handleEmailChange}
-                            onBlur={this.handleBlur("email")}
-                          />
-                        </div>
-                        <div className="input-field col s12">
-                          <input
-                            type="tel"
-                            name="phone"
-                            id="phone"
-                            placeholder="###-###-####"
-                            className="input-field col s12"
-                            required
-                          />
-                        </div>
-                        <div className="input-field col s12">
-                          <input
-                            type="text"
-                            name="help"
-                            id="help"
-                            placeholder="How can we help?"
-                            className="form-control input-lg"
-                            required
-                          />
-                        </div>
-                        <button
-                          style={{
-                            width: "150px",
-                            borderRadius: "3px",
-                            letterSpacing: "1.5px",
-                            marginTop: "2rem",
-                            zIndex: 0
-                          }}
-                          disabled={isDisabled}
-                          type="submit"
-                          className="btn btn-large waves-effect waves-light hoverable blue accent-3"
-                        >
-                          {" "}
-                          Contact Us{" "}
-                        </button>
-                      </form>
-*/

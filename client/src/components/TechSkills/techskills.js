@@ -1,9 +1,12 @@
 import React /*, { Component }*/ from "react";
+import "animate.css/animate.min.css";
+import ScrollAnimation from 'react-animate-on-scroll';
 
 export default class TechSkills extends React.Component {
 
   render() {
     return (
+      <ScrollAnimation animateIn="fadeIn" animateOnce={true} duration={1}>
       <section className="page-section" id="technical">
           <div className="container py-5">
             
@@ -142,6 +145,8 @@ export default class TechSkills extends React.Component {
           </div>
           
       </section>
+      </ScrollAnimation>
+      
     );
   }
 }
