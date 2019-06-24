@@ -43,6 +43,8 @@
     <title>David Hanlon's Portfolio</title>
   </head>
   <body>
+   
+  
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
  
@@ -65,23 +67,42 @@
     })
   </script>
 
-<!--Trying active scroll script-->
-<script type ="text/javascript">
-  //  $(document).ready(function() {
-  //     $(".menu-icon").on("click", function() {
-  //       $("nav ul li").toggleClass("active");
-  //     });
-  //   });
-  //   $(window).on("scroll", function() {
-  //     if($(window).scrollTop()) {
-  //       $('nav ul li').addClass('active');
-  //     }
 
-  //     else {
-  //       $('nav ul li').removeClass('active');
-  //     }
-  //   })
-</script>
-<!---->
-  </body>
+
+  <!--active scrolling Navbar-->
+  <!-- <script type="text/javascript">
+    let mainNavLinks = document.querySelectorAll("nav ul li a");
+    let mainSections = document.querySelectorAll("body section");
+    // let myNavLinks = $(".menu-icon")
+  
+    $(document).ready(function() {
+      if($("#about"))
+        {console.log("about section FOUND");}
+      else{console.log("about section NOT FOUND")}
+     // $(".menu-icon")
+    });
+    console.log("NavLinks: "+mainNavLinks);
+    console.log("Sections: " +mainSections);
+    let lastId;
+    let cur = [];
+
+
+    window.addEventListener("scroll", event => {
+      let fromTop = window.scrollY;
+
+      mainNavLinks.forEach(link => {
+        let section = document.querySelector(link.hash);
+        console.log(section);
+        if ($(window).scrollTop()) {
+          link.classList.addClass("active");
+          $('nav ul li  a').addClass('active');
+        } else {
+          link.classList.removeClass("active");
+          $('nav ul li  a').removeClass('active');
+        }
+      });
+    });
+  </script> -->
+
+</body>
 </html>
