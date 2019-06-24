@@ -15,7 +15,7 @@ export default class Experience extends React.Component {
 
   render() {
     return (
-      <ScrollAnimation animateIn="fadeInRight" animateOnce={true} duration={1}> 
+      <ScrollAnimation animateIn="fadeIn" animateOnce={true} duration={1}> 
       <section className="page-section" id="experience">
 
       <div className="container mb-5 mt-5">

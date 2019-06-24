@@ -13,7 +13,7 @@ export default class Education extends React.Component {
 
   render() {
     return (
-    <ScrollAnimation animateIn="fadeInLeft" animateOnce={true} duration={1}> 
+    <ScrollAnimation animateIn="fadeIn" animateOnce={true} duration={1}> 
     <section className="page-section" id="education">
         <div className="container mb-5 mt-5">
             
