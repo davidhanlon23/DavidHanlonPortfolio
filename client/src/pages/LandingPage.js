@@ -57,7 +57,8 @@ class Landing extends React.Component {
       <AboutMe></AboutMe>
       <Education></Education>
       <Experience></Experience> 
-      <TechSkills></TechSkills>  
+      <TechSkills></TechSkills>
+      {/* <Projects></Projects>   */}
       <ContactMe></ContactMe>
       <div></div>
       <div className="backToTop" style={{opacity: 0.85}}>
@@ -68,11 +69,6 @@ class Landing extends React.Component {
        
         
       </div>
-      
-      {/* <div className="download" style={{opacity:0.85}}>
-        <button  type="button" ><a href={resume} download>RESUME</a> </button>
-        <div id='button'></div>
-      </div> */}
 
       <Footer></Footer>
       </div>
