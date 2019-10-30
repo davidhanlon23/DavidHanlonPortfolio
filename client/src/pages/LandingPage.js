@@ -54,7 +54,7 @@ class Landing extends React.Component {
     return (
       <div>
       <PageIntro></PageIntro>
-      <AboutMe></AboutMe>
+      {/* <AboutMe></AboutMe> */}
       <Education></Education>
       <Experience></Experience> 
       <TechSkills></TechSkills>
