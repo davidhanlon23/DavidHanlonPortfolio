@@ -15,9 +15,9 @@ import Experience from "../components/Experience/experience";
 //import Projects from "../components/Projects/projects";
 //import References from "../components/References/references";
 import TechSkills from "../components/TechSkills/techskills";
-//import ContactMe from "../components/ContactForm/contactForm";
 import ContactMe from '../components/ContactForm/ContactForm';
 import Footer from "../components/footer/footer";
+import WorkExperience from "../components/Experience/workExperience";
 
 
 class Landing extends React.Component {
@@ -54,9 +54,10 @@ class Landing extends React.Component {
     return (
       <div>
       <PageIntro></PageIntro>
-      {/* <AboutMe></AboutMe> */}
+      <AboutMe></AboutMe>
       <Education></Education>
       <Experience></Experience> 
+      <WorkExperience></WorkExperience>
       <TechSkills></TechSkills>
       {/* <Projects></Projects>   */}
       <ContactMe></ContactMe>

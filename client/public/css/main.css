@@ -233,7 +233,9 @@ margin-right: 5px;
 #experience img{
     margin-top:50px;
 }
-
+#workExperience img{
+    margin-top:50px;
+}
 #company2 a{
     text-decoration:none;
     color:black;
@@ -249,6 +251,13 @@ margin-right: 5px;
 #company3 a:hover{
   
     color:lightgreen;
+}
+#company4 a{
+    color:#000;
+    text-decoration:none;
+}
+#company4 a:hover{
+    color:#fdd300;
 }
 /**/
 /*Contact Form CSS */
