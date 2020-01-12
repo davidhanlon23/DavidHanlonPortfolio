@@ -59,7 +59,7 @@ export default class ContactMe extends React.Component {
              <ul className="list-unstyled list-inline social contact-list quick-links">
                <li><a href="tel:443-735-2450"><i className="fa fa-phone fa-3x"></i> <p> 443-735-2450</p></a></li>
                <li><a href="mailto:davidhanlon23@gmail.com"><i className="fa fa-envelope fa-1x"></i><p>davidhanlon23@gmail.com</p></a></li>
-               <li><a href="https://www.google.com/maps/dir//6011+York+Rd,+Baltimore,+MD+21212/@39.3620816,-76.6100315,16z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89c80562556432f3:0xab3a3ca46237d0e8!2m2!1d-76.609533!2d39.366449"><i className="fa fa-location-arrow fa-1x"></i><p>  6011 York, Rd. Baltimore, Md 21212</p> </a></li>
+               <li><a href="https://www.google.com/maps/dir//Towson,+MD/@39.3963558,-76.6502469,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89c80e5369e65cd3:0x641571de3a43d1f4!2m2!1d-76.6019125!2d39.4014955"><i className="fa fa-location-arrow fa-1x"></i><p>  P.O. Box 10092 Towson, Md 21285</p> </a></li>
                
              </ul>  
             </div>

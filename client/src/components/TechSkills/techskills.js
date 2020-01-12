@@ -73,6 +73,18 @@ export default class TechSkills extends React.Component {
                         <i className="devicon-github-plain colored"></i>
                         <p> GitHub </p>
                     </div>
+                   
+                    <div className="dev-icon-container">
+                        <i className="devicon-heroku-original colored"></i>
+                        <p> Heroku </p>
+                    </div>
+
+                    
+                    <div className="dev-icon-container">
+                        <i className="devicon-drupal-plain colored"></i>
+                        <p> Drupal CMS </p>
+                    </div>
+
                 </div>
                 
             
@@ -85,7 +97,11 @@ export default class TechSkills extends React.Component {
 
          
               <div className="text-center d-flex flex-wrap justify-content-around">
-                
+                {/* <div className="dev-icon-container">
+                  <i className="devicon-ionic-plain colored"></i>
+                  <p> Ionic Framework </p>
+                </div> */}
+
                 <div className="dev-icon-container">
                   <i className="devicon-google-plain colored"></i>
                   <p> Google App Script </p>

@@ -33,7 +33,7 @@ export default class WorkExperience extends React.Component {
             <a href="https://www.stanleyblackanddecker.com/"><h2>Stanley Black &amp; Decker</h2></a>
             <p>
               <i>
-                Stanley Black &amp; Decker is a growing forutne 500 company that is constantly expanding
+                Stanley Black &amp; Decker is a growing fortune 500 company that is constantly expanding
                 into different global emerging markets.
               </i>
             </p>
@@ -46,16 +46,18 @@ export default class WorkExperience extends React.Component {
             </ul>
           
             <ul> 
+
                 {/* TODO: Still more to add... */}
                 {/* Magellan Project */}
               <li>
-                  Conducted full-stack (PostgreSQL,Express, ReactJS, NodeJS) development on Stanley Security's Business to Business 
-                  &amp; Business to Consumer applications. 
+                Conducted junior level full-stack (PostgreSQL, Express, ReactJS, NodeJS) development on Stanley Security’s Business to Business &amp; Business to Consumer E-Commerce applications. 
+              </li>
+              <li>
+                Improved Dev-ops practices, while fixing bugs throughout the application and assisting in the creation of the admin module to control product junction object mappings, display status, user role based access, and “scope of work” fulfillment for the B2C application.
               </li>
                 {/* Hybris Project */}
               <li>
-                  Utilized technologies such as Java, Spring Framework &amp; Hybris SAP platform to help maintain &amp; enhance Stanley's
-                  E-commerce Java based web applications.
+              While apart of the NodeJS project, I simultaneously started onboarding for the Java, Java Spring, &amp; Hybris SAP based E-commerce project.
               </li>
 
                 {/* Project Management */}
