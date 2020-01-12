@@ -29,7 +29,7 @@ export default class Experience extends React.Component {
           </div>
         </div>
       
-
+        {/*Cybrary */}
         <div className="row" id="workInfo">
           <div id="company1" className="col-12 col-md-8">
             <a href="https://www.cybrary.it"><h2>Cybrary</h2></a>
@@ -72,6 +72,7 @@ export default class Experience extends React.Component {
           </div>
         </div>
 
+        {/*ETS */}
         <div className="row" id="workInfo">
           <div id="company2" className="col-12 col-md-8">
             <a href="http://www.elavonpayments.com"><h2>Electronic Transaction Systems (ETS)</h2></a>
@@ -112,7 +113,7 @@ export default class Experience extends React.Component {
           </div>
         </div>
 
-
+        {/*Sprout Creatives */}
         <div className="row" id="workInfo">
           <div id="company3" className="col-12 col-md-8" >
             <a href="https://www.sproutcreatives.com"><h2>Sprout Creatives</h2></a>
@@ -146,8 +147,6 @@ export default class Experience extends React.Component {
             <img alt="Sprout Creatives Logo" src={sproutLogo1} height="250px" width="250px"></img>
           </div>
         </div>
-
-
 
 
 
