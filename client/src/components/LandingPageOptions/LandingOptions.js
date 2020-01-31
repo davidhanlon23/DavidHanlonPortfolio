@@ -10,16 +10,21 @@ export default class LandingOptions extends React.Component {
     return (
       <ScrollAnimation animateIn="fadeIn" animateOnce={true} duration={1}>
       <section className="page-section" id="hero-banner">
-            {/* <Button color="default">
-                <Typography id="">Developer</Typography>
-            </Button>
-            <Button color="default">
-                <Typography id="">Business</Typography>
-            </Button>
-            <Button color="default">
-                <Typography id="">Photography</Typography>
-            </Button> */}
-            <h2>hello</h2>
+        <div className="row">
+
+          <div className="column" id="hero-banner-developer">
+      
+          </div>
+
+          <div className="column" id="hero-banner-entrepreneur">
+
+          </div>
+
+          <div className="column" id="hero-banner-photographer">
+
+          </div>
+
+        </div>
       </section>
       </ScrollAnimation>
       
