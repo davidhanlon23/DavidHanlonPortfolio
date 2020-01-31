@@ -6,7 +6,7 @@ import React/*,{ Component } */from "react";
 //new
 //import { BrowserRouter as Router, Route } from 'react-router-dom';
 
-export default class NavigationBar extends React.Component  {
+export default class DevNavigationBar extends React.Component  {
 
   render() {
     return (

@@ -1,7 +1,7 @@
 import React /*, { Component }*/ from "react";
-import cybraryLogo from '../../images/cybrary3.png'
-import etsLogo from '../../images/etsLogo.png';
-import sproutLogo1 from '../../images/sproutLogo1.png';
+import cybraryLogo from '../../../images/cybrary3.png'
+import etsLogo from '../../../images/etsLogo.png';
+import sproutLogo1 from '../../../images/sproutLogo1.png';
 
 //
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

@@ -6,21 +6,21 @@ import PropTypes from "prop-types";
 import {  withRouter} from "react-router-dom";
 
 import { connect } from "react-redux";
-import { logoutUser } from "../actions/authActions";
-import PageIntro from "../components/PageIntro/pageIntro";
+import { logoutUser } from "../../actions/authActions";
+import PageIntro from "../../components/DevLandingComponents/PageIntro/pageIntro";
 
-import AboutMe from "../components/AboutMe/aboutMe";
-import Education from "../components/Education/education";
-import Experience from "../components/Experience/experience";
+import AboutMe from "../../components/DevLandingComponents/AboutMe/aboutMe";
+import Education from "../../components/DevLandingComponents/Education/education";
+import Experience from "../../components/DevLandingComponents/Experience/experience";
 //import Projects from "../components/Projects/projects";
 //import References from "../components/References/references";
-import TechSkills from "../components/TechSkills/techskills";
-import ContactMe from '../components/ContactForm/ContactForm';
-import Footer from "../components/footer/footer";
-import WorkExperience from "../components/Experience/workExperience";
+import TechSkills from "../../components/DevLandingComponents/TechSkills/techskills";
+import ContactMe from '../../components/ContactForm/ContactForm';
+import Footer from "../../components/DevLandingComponents/DevFooter/footer";
+import WorkExperience from "../../components/DevLandingComponents/Experience/workExperience";
 
 
-class Landing extends React.Component {
+class DevLanding extends React.Component {
   constructor() {
     super();
     this.state = {
@@ -77,7 +77,7 @@ class Landing extends React.Component {
     );
   }
 }
-Landing.propTypes = {
+DevLanding.propTypes = {
   logoutUser: PropTypes.func.isRequired,
   auth: PropTypes.object.isRequired
 };
@@ -87,4 +87,4 @@ const mapStateToProps = state => ({
 export default connect(
   mapStateToProps,
   { logoutUser }
-)(withRouter(Landing));
+)(withRouter(DevLanding));

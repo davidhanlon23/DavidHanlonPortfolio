@@ -1,5 +1,5 @@
 import React /*, { Component }*/ from "react";
-import profilePicture from "../../images/profilePic.png";
+import profilePicture from "../../../images/profilePic.png";
 import "animate.css/animate.min.css";
 import ScrollAnimation from 'react-animate-on-scroll';
 

@@ -1,7 +1,7 @@
 import React /*, { Component }*/ from "react";
 //import {Link} from "react-router-dom";
 //import resume from "../../downloads/PostGradResume2019PDF.pdf";
-import resume2 from "../../downloads/DavidHanlonResumeV2.pdf";
+import resume2 from "../../../downloads/DavidHanlonResumeV2.pdf";
 //import Button from 'react-bootstrap/Button';
 export default class PageIntro extends React.Component {
 

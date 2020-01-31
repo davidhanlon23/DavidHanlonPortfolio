@@ -1,5 +1,5 @@
 import React /*, { Component }*/ from "react";
-import sbdLogo from '../../images/sbdLogo.jpg';
+import sbdLogo from '../../../images/sbdLogo.jpg';
 
 //
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
