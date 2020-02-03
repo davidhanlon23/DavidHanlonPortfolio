@@ -583,23 +583,45 @@ body {
     clear: both;
     display: table;
   }
-
+#landing-option{
+    margin:auto;
+    text-align: center;
+    /* max-width: 100%; */
+    max-width:70%;
+}
+.landing-page-button{
+    display: block !important;
+    max-width: 60% !important;
+    margin:auto !important;
+    color:white!important;
+    background-color: #c8b4ef!important;
+}
+.landing-page-button a:hover{
+    display: block !important;
+    max-width: 60% !important;
+    margin:auto !important;
+    color:white!important;
+    background-color: #b4e3ff!important;
+}
 #hero-banner-developer {
     /* width: 100%; */
-    height: 100vh;
-    background: url('../imgs/DEVELOPER.svg') no-repeat 50% 50%;
+    /* height: 100vh;
+    background: url('../imgs/DEVELOPER.svg') no-repeat 50% 50%; */
+    background-color: #b4e3ff;
     background-size: cover;
    }
    #hero-banner-entrepreneur {
     /* width: 30%; */
     height: 100vh;
-    background: url('../imgs/ENTREPRENEUR.svg') no-repeat 50% 50%;
+    /* background: url('../imgs/ENTREPRENEUR.svg') no-repeat 50% 50%; */
+    background-color: #c8b4ef;
     background-size: cover;
    }
    #hero-banner-photographer {
     /* width: 30%; */
     height: 100vh;
-    background: url('../imgs/PHOTOGRAPHER.svg') no-repeat 50% 50%;
+    /* background: url('../imgs/PHOTOGRAPHER.svg') no-repeat 50% 50%; */
+    background-color: #b4ffd7;
     background-size: cover;
    }
 

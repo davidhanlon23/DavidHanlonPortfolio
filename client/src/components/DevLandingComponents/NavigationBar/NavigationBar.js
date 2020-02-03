@@ -17,8 +17,9 @@ export default class DevNavigationBar extends React.Component  {
                   <i className="fa fa-bars fa-2x"></i>
                </div>
                <div className="logo">
-                  David M. Hanlon
-               </div>
+                  <a href="/" style={{textDecoration: 'none', color:'black'}}>
+                     David M. Hanlon
+                  </a>               </div>
                <div className="menu">
                   <ul>
                       {/* <li><NavLink exact ={true} activeClassName='active' to ='/'>Home</NavLink></li> */}
