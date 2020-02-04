@@ -588,6 +588,7 @@ body {
     text-align: center;
     /* max-width: 100%; */
     max-width:70%;
+    margin-top:70%;
 }
 .landing-page-button{
     display: block !important;
@@ -595,6 +596,11 @@ body {
     margin:auto !important;
     color:white!important;
     background-color: #c8b4ef!important;
+    margin-top:50px !important;
+}
+.landing-page-button {
+    margin-top:100px!important;
+    margin-bottom: 100px !important;
 }
 .landing-page-button a:hover{
     display: block !important;
@@ -607,27 +613,27 @@ body {
     /* width: 100%; */
     /* height: 100vh;
     background: url('../imgs/DEVELOPER.svg') no-repeat 50% 50%; */
-    background-color: #b4e3ff;
+    /* background-color: #b4e3ff; */
     background-size: cover;
    }
    #hero-banner-entrepreneur {
     /* width: 30%; */
     height: 100vh;
     /* background: url('../imgs/ENTREPRENEUR.svg') no-repeat 50% 50%; */
-    background-color: #c8b4ef;
+    /* background-color: #c8b4ef; */
     background-size: cover;
    }
    #hero-banner-photographer {
     /* width: 30%; */
     height: 100vh;
     /* background: url('../imgs/PHOTOGRAPHER.svg') no-repeat 50% 50%; */
-    background-color: #b4ffd7;
+    /* background-color: #b4ffd7; */
     background-size: cover;
    }
 
    #hero-banner{
-       background-color: #d6249f;
-       display: inline;
+        background: url('../imgs/silhouette-of-mountains-1323550.jpg') !important;
+       /* display: inline; */
    }
 /*INTRO css*/
 #intro {

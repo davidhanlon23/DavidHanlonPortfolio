@@ -16,9 +16,9 @@ export default class LandingOptions extends React.Component {
           <div className="column" id="hero-banner-developer">
             <Paper id="landing-option">
               <div>
-                
+
               </div>
-              <Typography variant='p'>
+              <Typography className="landing-page-text" variant='p'>
                  If you are here looking to view my developer skills, resume, projects, &asmp; work experience click the
                  button below.
               </Typography>
