@@ -589,6 +589,7 @@ body {
     /* max-width: 100%; */
     max-width:70%;
     margin-top:70%;
+    background-color: #bee3ff;
 }
 .landing-page-button{
     display: block !important;
@@ -633,6 +634,7 @@ body {
 
    #hero-banner{
         background: url('../imgs/silhouette-of-mountains-1323550.jpg') !important;
+        background-size: cover !important;
        /* display: inline; */
    }
 /*INTRO css*/
