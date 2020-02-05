@@ -4,7 +4,7 @@ import React /*, { Component }*/ from "react";
 import {  withRouter} from "react-router-dom";
 
 import { connect } from "react-redux";
-
+import Album from '../../components/PhotographyLandingComponents/Album';
 
 
 class PhotographyLanding extends React.Component {
@@ -33,7 +33,8 @@ class PhotographyLanding extends React.Component {
   render() {
     return (
       <div>
-          <h1> Photography LP</h1>
+          {/* <h1> Photography LP</h1> */}
+          <Album/>
       </div>
      
     );
@@ -48,3 +49,4 @@ const mapStateToProps = state => ({
 export default connect(
   mapStateToProps,
 )(withRouter(PhotographyLanding));
+
