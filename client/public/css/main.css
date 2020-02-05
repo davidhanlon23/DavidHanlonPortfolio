@@ -600,8 +600,8 @@ body {
     margin-top:50px !important;
 }
 .landing-page-button {
-    margin-top:100px!important;
-    margin-bottom: 100px !important;
+    /* margin-top:100px!important;
+    margin-bottom: 100px !important; */
 }
 .landing-page-button a:hover{
     display: block !important;
