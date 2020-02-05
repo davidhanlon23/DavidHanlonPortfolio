@@ -1,7 +1,7 @@
 import React from 'react';
 import AppBar from '@material-ui/core/AppBar';
 import Button from '@material-ui/core/Button';
-import CameraIcon from '@material-ui/icons/PhotoCamera';
+import NavigateBeforeIcon from '@material-ui/icons/NavigateBefore';
 import Card from '@material-ui/core/Card';
 import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
@@ -13,7 +13,7 @@ import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import Link from '@material-ui/core/Link';
-
+import ContactForm from '../ContactForm/ContactForm';
 
 function Copyright() {
   return (
@@ -70,10 +70,14 @@ export default function Album() {
       <CssBaseline />
       <AppBar position="relative">
         <Toolbar>
-          <CameraIcon className={classes.icon} />
-          <Typography variant="h6" color="inherit" noWrap>
-            Album layout
-          </Typography>
+          {/* <CameraIcon className={classes.icon} /> */}
+          <Button href="/">
+            <NavigateBeforeIcon className={classes.icon}/>
+            <Typography variant="h6" color="inherit" noWrap>
+                Back To Home
+            </Typography>
+          </Button>
+       
         </Toolbar>
       </AppBar>
       <main>
@@ -81,7 +85,7 @@ export default function Album() {
         <div className={classes.heroContent}>
           <Container maxWidth="sm">
             <Typography component="h1" variant="h2" align="center" color="textPrimary" gutterBottom>
-              Album layout
+              My Photo Album
             </Typography>
             <Typography variant="h5" align="center" color="textSecondary" paragraph>
               Something short and leading about the collection below—its contents, the creator, etc.
@@ -135,6 +139,9 @@ export default function Album() {
               </Grid>
             ))}
           </Grid>
+        </Container>
+        <Container>
+            <ContactForm/>
         </Container>
       </main>
       {/* Footer */}

@@ -2,8 +2,8 @@ import React /*, { Component }*/ from "react";
 import "animate.css/animate.min.css";
 // import "./LandingOptions.css";
 import ScrollAnimation from 'react-animate-on-scroll';
-import { Button, CardMedia, Typography,Grid, Paper } from '@material-ui/core';
-
+import { Button, Typography, Paper } from '@material-ui/core';
+import ProductValues from '../LandingPageOptions/ProductValues';
 export default class LandingOptions extends React.Component {
  
   render() {
@@ -19,7 +19,7 @@ export default class LandingOptions extends React.Component {
               <div>
 
               </div>
-              <Typography className="landing-page-text" variant='p'>
+              <Typography className="landing-page-text" variant='body1'>
                  If you are here looking to view my developer skills, resume, projects, &amp; work experience click the
                  button below.
               </Typography>
@@ -33,7 +33,7 @@ export default class LandingOptions extends React.Component {
               <div>
 
               </div>
-              <Typography className="landing-page-text" variant='p'>
+              <Typography className="landing-page-text" variant='body1'>
                  If you are here looking to view my developer skills, resume, projects, &amp; work experience click the
                  button below.
               </Typography>
@@ -47,7 +47,7 @@ export default class LandingOptions extends React.Component {
               <div>
 
               </div>
-              <Typography className="landing-page-text" variant='p'>
+              <Typography className="landing-page-text" variant='body1'>
                  If you are here looking to view my developer skills, resume, projects, &amp; work experience click the
                  button below.
               </Typography>
@@ -57,6 +57,7 @@ export default class LandingOptions extends React.Component {
 
         </div>
       </section>
+      <ProductValues/>
       </ScrollAnimation>
       
     );
