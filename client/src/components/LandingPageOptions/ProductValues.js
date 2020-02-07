@@ -9,12 +9,13 @@ import devSvg from "../../images/html.svg";
 import entrepreneurSvg from "../../images/entrepreneur.svg";
 import amateurPhotographerSvg from "../../images/photographer.svg";
 import landingBg from "../../images/silhouette-of-mountains-1323550.jpg"
+import landingImg from "../../images/PNUNYQ0.jpg";
 
 const styles = theme => ({
   root: {
     display: 'flex',
     overflow: 'hidden',
-    backgroundImage: `url(${landingBg})`,
+    backgroundImage: `url(${landingImg})`,
     backgroundSize: 'cover',
     // backgroundColor: theme.palette.secondary.light,
   },
