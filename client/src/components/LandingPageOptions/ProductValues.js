@@ -8,14 +8,15 @@ import Typography from '../Shared/Typography';
 import devSvg from "../../images/html.svg";
 import entrepreneurSvg from "../../images/entrepreneur.svg";
 import amateurPhotographerSvg from "../../images/photographer.svg";
-import landingBg from "../../images/silhouette-of-mountains-1323550.jpg"
-import landingImg from "../../images/PNUNYQ0.jpg";
+//import landingBg from "../../images/silhouette-of-mountains-1323550.jpg"
+//import landingImg from "../../images/15403.jpg";
 
 const styles = theme => ({
   root: {
     display: 'flex',
     overflow: 'hidden',
-    backgroundImage: `url(${landingImg})`,
+    //backgroundImage: `url(${landingImg})`,
+    backgroundColor:'red',
     backgroundSize: 'cover',
     // backgroundColor: theme.palette.secondary.light,
   },
@@ -87,8 +88,9 @@ function ProductValues(props) {
                 Entrepreneur
               </Typography>
               <Typography variant="h5">
-                {'If you are here looking to view my developer skills, resume, projects'}
-                {', & work experience click the button below.'}
+                {'I have always been somewhat of an Entrepreneur at heart and have invested time'}
+                {'into myself to work on things that I enjoy outside of developing.'}
+                {'To learn more about my businesses and investments, click the button below.'}
               </Typography>
               <Button href="/business" className="landing-page-button" variant="contained"> My Businesses </Button>
             </div>
@@ -104,8 +106,8 @@ function ProductValues(props) {
                 Amateur Photographer
               </Typography>
               <Typography variant="h5">
-                {'If you are here looking to view my developer skills, resume, projects'}
-                {', & work experience click the button below.'}
+                {'Photography is something I have began growing a passion for. Click the button'}
+                {'below to view my photography portfolio and progression.'}
               </Typography>
               <Button href="/photography" className="landing-page-button" variant="contained"> My Photos </Button>
             </div>
