@@ -2,9 +2,7 @@ import React /*, { Component }*/ from "react";
 //import PropTypes from "prop-types";
 import {  withRouter} from "react-router-dom";
 import { connect } from "react-redux";
-import LandingOptions from '../../components/LandingPageOptions/LandingOptions';
-//import { logoutUser } from "../actions/authActions";
-import "./LandingPage.css";
+import LandingPageContainer from '../../components/LandingPageComponents/LandingPageContainer';
 
 class LandingPage extends React.Component {
     constructor() {
@@ -22,7 +20,6 @@ class LandingPage extends React.Component {
     }
   
     componentWillUnmount() {
-      //this.state.isMounted = false;
       this.setState({
         isMounted: false,
      });
@@ -32,7 +29,7 @@ class LandingPage extends React.Component {
     render() {
       return (
         <div>
-            <LandingOptions/>
+            <LandingPageContainer/>
         </div>
        
       );

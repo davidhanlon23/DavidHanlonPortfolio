@@ -16,9 +16,9 @@ const styles = theme => ({
     display: 'flex',
     overflow: 'hidden',
     //backgroundImage: `url(${landingImg})`,
-    backgroundColor:'red',
+    //backgroundColor:'white',
     backgroundSize: 'cover',
-    // backgroundColor: theme.palette.secondary.light,
+    backgroundColor: theme.palette.secondary.light, //Theme.js file contains these colors
   },
   container: {
     marginTop: theme.spacing(15),
@@ -32,6 +32,7 @@ const styles = theme => ({
     flexDirection: 'column',
     alignItems: 'center',
     padding: theme.spacing(0, 5),
+    paddingTop:theme.spacing(5),
   },
   image: {
     height: 55,
@@ -52,14 +53,17 @@ function ProductValues(props) {
   const { classes } = props;
 
   return (
-    <section className={classes.root}>
+    <section id="landing-options" className={classes.root}>
       <Container className={classes.container}>
+        {/*To add background IMG to info-graphic section, uncomment the code below, and import an image*/}    
         {/* <img
           src={landingBg}
           className={classes.curvyLines}
           alt="curvy lines"
         /> */}
-        <Grid container spacing={5}>
+        
+        <Grid container spacing={24}>
+          {/*Info-graphic 1*/}         
           <Grid item xs={12} md={4}>
             <div className={classes.item}>
               <img
@@ -70,13 +74,18 @@ function ProductValues(props) {
               <Typography variant="h6" className={classes.title}>
                 Developer
               </Typography>
-              <Typography variant="h5">
-                {'If you are here looking to view my developer skills, resume, projects'}
-                {', & work experience click the button below.'}
+              <Typography variant="body">
+                {"I obtained my Bachelor's in COSC at Towson University where I learned Java, and taught myself NodeJS. "}
+                {'If you are here looking to view my developer skills, resume, projects, & work '}
+                {'experience, click the button below. '}
+                
+                
               </Typography>
-              <Button href="/developer" className="landing-page-button" variant="contained"> My Resume &amp; Work </Button>
+              <Button href="/developer" className="landing-page-button" variant="contained"> My Portfolio</Button>
             </div>
           </Grid>
+
+          {/*Info-graphic 2*/}
           <Grid item xs={12} md={4}>
             <div className={classes.item}>
               <img
@@ -87,7 +96,7 @@ function ProductValues(props) {
               <Typography variant="h6" className={classes.title}>
                 Entrepreneur
               </Typography>
-              <Typography variant="h5">
+              <Typography variant="body">
                 {'I have always been somewhat of an Entrepreneur at heart and have invested time'}
                 {'into myself to work on things that I enjoy outside of developing.'}
                 {'To learn more about my businesses and investments, click the button below.'}
@@ -95,6 +104,8 @@ function ProductValues(props) {
               <Button href="/business" className="landing-page-button" variant="contained"> My Businesses </Button>
             </div>
           </Grid>
+
+          {/*Info-graphic 3*/}
           <Grid item xs={12} md={4}>
             <div className={classes.item}>
               <img
@@ -105,15 +116,18 @@ function ProductValues(props) {
               <Typography variant="h6" className={classes.title}>
                 Amateur Photographer
               </Typography>
-              <Typography variant="h5">
-                {'Photography is something I have began growing a passion for. Click the button'}
-                {'below to view my photography portfolio and progression.'}
+              <Typography variant="body">
+                {'Photography is something I have began growing a passion for recently with an'}
+                {' increased interest in traveling. I currently use a Nikon D3400. Click the button'}
+                {' below if you would like to view my photography portfolio and progression.'}
               </Typography>
               <Button href="/photography" className="landing-page-button" variant="contained"> My Photos </Button>
             </div>
-          </Grid>
+          </Grid>  
+
         </Grid>
       </Container>
+
     </section>
   );
 }

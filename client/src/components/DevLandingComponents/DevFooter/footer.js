@@ -64,7 +64,7 @@ const Footer = () => {
 						<li className="list-inline-item"><a href="https://www.facebook.com/david.r.hanlon.5"><i className="fa fa-facebook"></i></a></li>
 						<li className="list-inline-item"><a href="https://github.com/davidhanlon23"><i className="fa fa-github"></i></a></li>
 						<li className="list-inline-item"><a href="https://www.linkedin.com/in/david-hanlon-4a6b1b131/"><i className="fa fa-linkedin"></i></a></li>
-						<li className="list-inline-item"><a href="https://www.instagram.com/kingdavid.xo"><i className="fa fa-instagram"></i></a></li>
+						<li className="list-inline-item"><a href="https://www.instagram.com/davidmhanlon"><i className="fa fa-instagram"></i></a></li>
 						
 					</ul>
 				</div>
