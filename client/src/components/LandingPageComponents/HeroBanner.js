@@ -61,7 +61,7 @@ function HeroBanner(props) {
               <Typography variant="h3">
                 {'Welcome,'}
               </Typography>
-              <Typography variant="body">
+              <Typography variant="body1">
                 {'some text about the heading to make the heading better If you are here looking to view my developer skills, resume, projects'}
               </Typography>
               <p></p>

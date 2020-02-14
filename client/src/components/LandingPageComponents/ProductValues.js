@@ -62,7 +62,7 @@ function ProductValues(props) {
           alt="curvy lines"
         /> */}
         
-        <Grid container spacing={24}>
+        <Grid container spacing={10}>
           {/*Info-graphic 1*/}         
           <Grid item xs={12} md={4}>
             <div className={classes.item}>
@@ -74,8 +74,8 @@ function ProductValues(props) {
               <Typography variant="h6" className={classes.title}>
                 Developer
               </Typography>
-              <Typography variant="body">
-                {"I obtained my Bachelor's in COSC at Towson University where I learned Java, and taught myself NodeJS. "}
+              <Typography variant="body1">
+                {"I obtained my Bachelor's in Computer Science at Towson University where I learned Java, and taught myself NodeJS. "}
                 {'If you are here looking to view my developer skills, resume, projects, & work '}
                 {'experience, click the button below. '}
                 
@@ -96,7 +96,7 @@ function ProductValues(props) {
               <Typography variant="h6" className={classes.title}>
                 Entrepreneur
               </Typography>
-              <Typography variant="body">
+              <Typography variant="body1">
                 {'I have always been somewhat of an Entrepreneur at heart and have invested time'}
                 {'into myself to work on things that I enjoy outside of developing.'}
                 {'To learn more about my businesses and investments, click the button below.'}
@@ -116,7 +116,7 @@ function ProductValues(props) {
               <Typography variant="h6" className={classes.title}>
                 Amateur Photographer
               </Typography>
-              <Typography variant="body">
+              <Typography variant="body1">
                 {'Photography is something I have began growing a passion for recently with an'}
                 {' increased interest in traveling. I currently use a Nikon D3400. Click the button'}
                 {' below if you would like to view my photography portfolio and progression.'}
