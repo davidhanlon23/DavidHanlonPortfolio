@@ -3,7 +3,8 @@ import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import Container from '@material-ui/core/Container';
-import { Button } from "@material-ui/core";
+// import { Button } from "@material-ui/core";
+import Button from '../Shared/Button';
 import Typography from '../Shared/Typography';
 import devSvg from "../../images/html.svg";
 import entrepreneurSvg from "../../images/entrepreneur.svg";
@@ -75,13 +76,13 @@ function ProductValues(props) {
                 Developer
               </Typography>
               <Typography variant="body1">
-                {"I obtained my Bachelor's in Computer Science at Towson University where I learned Java, and taught myself NodeJS. "}
+                {"I obtained my Bachelor's in COSC at Towson University where I learned Java, and taught myself NodeJS. "}
                 {'If you are here looking to view my developer skills, resume, projects, & work '}
                 {'experience, click the button below. '}
                 
                 
               </Typography>
-              <Button href="/developer" className="landing-page-button" variant="contained"> My Portfolio</Button>
+              <Button href="/developer" variant="contained">Portfolio</Button>
             </div>
           </Grid>
 
@@ -101,7 +102,7 @@ function ProductValues(props) {
                 {'into myself to work on things that I enjoy outside of developing.'}
                 {'To learn more about my businesses and investments, click the button below.'}
               </Typography>
-              <Button href="/business" className="landing-page-button" variant="contained"> My Businesses </Button>
+              <Button href="/business" variant="contained">Businesses</Button>
             </div>
           </Grid>
 
@@ -121,7 +122,7 @@ function ProductValues(props) {
                 {' increased interest in traveling. I currently use a Nikon D3400. Click the button'}
                 {' below if you would like to view my photography portfolio and progression.'}
               </Typography>
-              <Button href="/photography" className="landing-page-button" variant="contained"> My Photos </Button>
+              <Button href="/photography" variant="contained">Photos</Button>
             </div>
           </Grid>  
 
@@ -136,4 +137,5 @@ ProductValues.propTypes = {
   classes: PropTypes.object.isRequired,
 };
 
-export default withStyles(styles)(ProductValues);
+//export default withStyles(styles)(ProductValues);
+export default withStyles(styles, { withTheme: true })(ProductValues);

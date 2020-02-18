@@ -1,6 +1,7 @@
 import React from 'react';
 import Typography from './Typography';
 import { withStyles } from '@material-ui/core/styles';
+import Link from '@material-ui/core/Link';
 import PropTypes from 'prop-types';
 const styles = theme => ({
 	socialIcons:{
@@ -14,6 +15,18 @@ const styles = theme => ({
 		color:'black',
 	},
 });
+function Copyright() {
+	return (
+	  <Typography variant="body2" color="textSecondary" align="center">
+		{'Copyright © '}
+		<Link color="inherit" href="/">
+		  Built by David M. Hanlon
+		</Link>{' '}
+		{new Date().getFullYear()}
+		{'.'}
+	  </Typography>
+	);
+  }
 function MainFooter(props) {
 	const { classes } = props;
     return (
@@ -33,8 +46,8 @@ function MainFooter(props) {
 			<div className="row">
 				<div className="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
 		
-					<Typography className={classes.footerText}variant="body1">This Portfolio was constructed by Towson University Graduate, David M. Hanlon</Typography>
-					
+					{/* <Typography className={classes.footerText}variant="body1">This Portfolio was constructed by Towson University Graduate, David M. Hanlon</Typography> */}
+					<Copyright />
 				</div>
 				<hr></hr>
 			</div>	

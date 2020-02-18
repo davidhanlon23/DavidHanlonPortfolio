@@ -3,7 +3,8 @@ import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import Container from '@material-ui/core/Container';
-import { Button } from "@material-ui/core";
+// import { Button } from "@material-ui/core";
+import Button from '../Shared/Button';
 import Typography from '../Shared/Typography';
 import landingImg from "../../images/insta3.jpg";
 
@@ -43,7 +44,13 @@ const styles = theme => ({
     top: -180,
   },
   learnMore:{
-
+    maxWidth:'60%',
+    textAlign:'center',
+    backgroundColor:theme.palette.primary.dark,
+    // '&:hover': {
+    //   color: '#efefef',
+    //   backgroundColor:"black"
+		// },
   },
 });
 

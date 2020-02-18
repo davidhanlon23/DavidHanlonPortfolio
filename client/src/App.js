@@ -16,6 +16,8 @@ import Login from "./components/Admin/auth/Login";
 import PrivateRoute from "./components/DevLandingComponents/private-route/PrivateRoute";
 import Dashboard from "./components/Admin/Dashboard/Dashboard";
 import LandingPage from "./pages/LandingPage/LandingPage";
+import getPageContext from '../src/getPageContext';
+import { MuiThemeProvider } from '@material-ui/core/styles';
 // Check for token to keep user logged in
 if (localStorage.jwtToken) {
   // Set auth token header auth
@@ -35,11 +37,16 @@ if (localStorage.jwtToken) {
   }
 }
 class App extends Component {
+  constructor() {
+    super();
+    this.pageContext = getPageContext();
+  }
+
   render() {
     return (
       <Provider store={store}>
-       
-        <Router>
+       <MuiThemeProvider theme={this.pageContext.theme}>
+       <Router>
           <div className="App">
             {/* Main Landing Page */}
             <Route exact path="/" component={LandingPage} />
@@ -67,8 +74,8 @@ class App extends Component {
 
           </div>
         </Router>
+       </MuiThemeProvider>
        
-        
       </Provider>
     );
   }
