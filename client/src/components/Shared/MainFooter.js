@@ -7,7 +7,7 @@ const styles = theme => ({
 	socialIcons:{
 		color:'black',
 		'&:hover': {
-			color: '#efefef',
+			color:theme.palette.secondary.main,
 		},
 
 	},
@@ -30,6 +30,7 @@ function Copyright() {
 function MainFooter(props) {
 	const { classes } = props;
     return (
+		<footer>
         <div>
            <div className="row">
 				<div className="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
@@ -52,6 +53,7 @@ function MainFooter(props) {
 				<hr></hr>
 			</div>	
         </div>
+		</footer>
     );
 }; 
 MainFooter.propTypes = {
