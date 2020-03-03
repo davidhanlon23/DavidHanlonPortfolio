@@ -12,7 +12,8 @@ import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
-import Link from '@material-ui/core/Link';
+//import Link from '@material-ui/core/Link';
+import InstagramEmbed from 'react-instagram-embed';
 import ContactForm from '../ContactForm/ContactForm';
 import MainFooter from "../Shared/MainFooter";
 
@@ -96,15 +97,129 @@ export default function Album() {
             </div>
           </Container>
         </div>
-        <Container className={classes.cardGrid} maxWidth="md">
-          {/* End hero unit */}
+        <Container>
+          <Grid container spacing={10} justify='center'>
+            
+            <Grid item xs={12} md={4}>
+              <InstagramEmbed
+                url='https://instagr.am/p/B5Ou3tFBtpZ/'
+                maxWidth={250}
+                hideCaption={true}
+                containerTagName='div'
+                injectScript
+                protocol=''
+                onLoading={() => {}}
+                onSuccess={() => {}}
+                onAfterRender={() => {}}
+                onFailure={() => {}}
+              />
+            </Grid>
+
+            <Grid item xs={12} md={4}>
+              <InstagramEmbed
+                url='https://instagr.am/p/B43R11shIhB/' 
+                maxWidth={250}
+                hideCaption={true}
+                containerTagName='div'
+                injectScript
+                protocol=''
+                onLoading={() => {}}
+                onSuccess={() => {}}
+                onAfterRender={() => {}}
+                onFailure={() => {}}
+              />
+            </Grid>
+
+            <Grid item xs={12} md={4}>
+              <InstagramEmbed
+                url='https://instagr.am/p/B4kSGwNhQpz/'
+                maxWidth={250}
+                hideCaption={true}
+                containerTagName='div'
+                injectScript
+                protocol=''
+                onLoading={() => {}}
+                onSuccess={() => {}}
+                onAfterRender={() => {}}
+                onFailure={() => {}}
+              />
+            </Grid>
+
+          </Grid>
+        </Container>
+       
+        <Container>
+          <Grid container spacing={10} justify='center'>
+            
+            <Grid item xs={12} md={4}>
+              <InstagramEmbed
+                url='https://instagr.am/p/B4aIOv7B69l/'
+                maxWidth={320}
+                hideCaption={true}
+                containerTagName='div'
+                injectScript
+                protocol=''
+                onLoading={() => {}}
+                onSuccess={() => {}}
+                onAfterRender={() => {}}
+                onFailure={() => {}}
+              />
+            </Grid>
+
+            <Grid item xs={12} md={4}>
+              <InstagramEmbed
+                url='https://instagr.am/p/B3h7ViIhE39/'
+                maxWidth={250}
+                hideCaption={true}
+                containerTagName='div'
+                injectScript
+                protocol=''
+                onLoading={() => {}}
+                onSuccess={() => {}}
+                onAfterRender={() => {}}
+                onFailure={() => {}}
+              />
+            </Grid>
+
+            <Grid item xs={12} md={4}>
+              {/* <InstagramEmbed
+                url='https://instagr.am/p/B4kSGwNhQpz/'
+                maxWidth={250}
+                hideCaption={true}
+                containerTagName='div'
+                injectScript
+                protocol=''
+                onLoading={() => {}}
+                onSuccess={() => {}}
+                onAfterRender={() => {}}
+                onFailure={() => {}}
+              /> */}
+            </Grid>
+
+          </Grid>
+        </Container>
+        
+        <Container>
+            <ContactForm/>
+        </Container>
+      </main>
+      {/* Footer */}
+      <MainFooter/>
+      {/* End footer */}
+    </React.Fragment>
+  );
+}
+
+/*
+
+<Container className={classes.cardGrid} maxWidth="md">
           <Grid container spacing={4}>
             {cards.map(card => (
               <Grid item key={card} xs={12} sm={6} md={4}>
                 <Card className={classes.card}>
                   <CardMedia
                     className={classes.cardMedia}
-                    image="https://source.unsplash.com/random"
+                    image="https://instagr.am/p/B5Ou3tFBtpZ/"
                     title="Image title"
                   />
                   <CardContent className={classes.cardContent}>
@@ -128,13 +243,6 @@ export default function Album() {
             ))}
           </Grid>
         </Container>
-        <Container>
-            <ContactForm/>
-        </Container>
-      </main>
-      {/* Footer */}
-      <MainFooter/>
-      {/* End footer */}
-    </React.Fragment>
-  );
-}
+
+
+*/
