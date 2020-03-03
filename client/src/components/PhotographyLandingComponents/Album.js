@@ -21,6 +21,14 @@ const useStyles = makeStyles(theme => ({
   icon: {
     marginRight: theme.spacing(2),
   },
+  container:{
+    [theme.breakpoints.down('md')]:{
+      margin:'auto',
+      padding:'10px',
+      position:'absolute',
+      width: '100%',
+    },
+  },
   heroContent: {
     backgroundColor: theme.palette.background.paper,
     padding: theme.spacing(8, 0, 6),
@@ -69,35 +77,36 @@ export default function Album() {
        
         </Toolbar>
       </AppBar>
-      <main>
+      {/* <main> */}
         {/* Hero unit */}
-        <div className={classes.heroContent}>
-          <Container maxWidth="sm">
-            <Typography component="h1" variant="h2" align="center" color="textPrimary" gutterBottom>
-              My Photo Album
+        {/* <div className={classes.heroContent}> */}
+          <Container className={classes.container} maxWidth="sm">
+            <Typography component="h1" variant="h3" align="center" color="textPrimary" gutterBottom>
+              My Photos
             </Typography>
             <Typography variant="h5" align="center" color="textSecondary" paragraph>
-              Something short and leading about the collection below—its contents, the creator, etc.
-              Make it short and sweet, but not too short so folks don&apos;t simply skip over it
-              entirely.
+              Here you can follow the beginning of my photography journey. 
+              Most of my photography is shot with a Nikon D3400 camera, various lens, 
+              and finished with very minimal editing. All of my photos can be found on 
+              my instagram account @davidmhanlon
             </Typography>
             <div className={classes.heroButtons}>
               <Grid container spacing={2} justify="center">
                 <Grid item>
-                  <Button variant="contained" color="primary">
-                    Main call to action
+                  <Button variant="contained" color="primary" href="#contact">
+                    Contact Me
                   </Button>
                 </Grid>
                 <Grid item>
-                  <Button variant="outlined" color="primary">
-                    Secondary action
+                  <Button variant="outlined" color="primary" href="https://www.instagram.com/davidmhanlon/">
+                    View Instagram
                   </Button>
                 </Grid>
               </Grid>
             </div>
-          </Container>
-        </div>
-        <Container>
+          {/* </Container> */}
+        {/* </div> */}
+        {/* <Container className={classes.container}> */}
           <Grid container spacing={10} justify='center'>
             
             <Grid item xs={12} md={4}>
@@ -146,9 +155,9 @@ export default function Album() {
             </Grid>
 
           </Grid>
-        </Container>
+        {/* </Container> */}
        
-        <Container>
+        {/* <Container className={classes.container}> */}
           <Grid container spacing={10} justify='center'>
             
             <Grid item xs={12} md={4}>
@@ -197,14 +206,15 @@ export default function Album() {
             </Grid>
 
           </Grid>
-        </Container>
+        {/* </Container> */}
         
-        <Container>
-            <ContactForm/>
-        </Container>
-      </main>
+        {/* <Container className={classes.container}> */}
+            <ContactForm id="contact"/>
+        {/* </Container> */}
+      {/* </main> */}
       {/* Footer */}
       <MainFooter/>
+      </Container>
       {/* End footer */}
     </React.Fragment>
   );
