@@ -766,7 +766,7 @@ nav ul {
     transition: 1s!important;
 }
 
-nav.black ul {
+nav.changeColor ul {
     background: #fff!important;
 }
 
@@ -785,8 +785,9 @@ nav ul li a {
     padding: 6px 16px!important;
     text-align: center!important;
 }
-nav.black ul li a{
-    color:#000!important;
+nav.changeColor ul li a{
+    /* color:#000!important; */
+    color:black!important;
 }
 
 .menu-icon {
@@ -840,7 +841,7 @@ nav.black ul li a{
         transition: 1s!important;
     }
     
-    nav.black ul {
+    nav.changeColor ul {
         background: #fff!important;
     }
     
@@ -859,7 +860,7 @@ nav.black ul li a{
         padding: 6px 16px!important;
         text-align: center!important;
     }
-    nav.black ul li a{
+    nav.changeColor ul li a{
         color:#000!important;
     }
 
@@ -894,9 +895,12 @@ nav.black ul li a{
           background: rgba(0, 0, 0, 0)!important;
     }
 
-    nav.black ul {
-          background: #000!important;
-          color:white!important;
+    nav.changeColor ul {
+          background: white!important;
+          color:black!important;
+    }
+    nav.changeColor li {
+        color:black!important;
     }
 
     .showing {
@@ -916,13 +920,16 @@ nav.black ul li a{
           color: rgba(0, 0, 0, 0)!important;
 
     }
-    nav.black .menu-icon{
-        color: #fff!important;
+    nav.changeColor .menu-icon{
+        /* color: #fff!important; */
+        color:black !important;
     }
-    nav.black ul li a{
-        color:white!important;
+    nav.changeColor ul li a{
+        color:black!important;
     }
-
+    nav.changeColor {
+        background-color: white!important;
+    }
 
   
 }
