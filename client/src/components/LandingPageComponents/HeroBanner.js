@@ -22,7 +22,7 @@ const styles = theme => ({
     marginBottom: theme.spacing(30),
     display: 'flex',
     position: 'relative',
-   
+    //align: 'right',
   },
   item: {
     display: 'flex',
@@ -52,6 +52,20 @@ const styles = theme => ({
     //   backgroundColor:"black"
 		// },
   },
+  alignRight:{
+    [theme.breakpoints.down('sm')]:{
+      position:'absolute',
+      width: '100%',
+      textAlign:'center',
+      margin:'auto',
+      padding:'30px',
+    },
+    //[theme.breakpoints.down('md')]:{},
+    position:'absolute',
+    right:'0px',
+    width: '40%',
+
+  },
 });
 
 function HeroBanner(props) {
@@ -60,16 +74,16 @@ function HeroBanner(props) {
   return (
     <section className={classes.root}>
       <Container className={classes.container}>
-        <Grid container spacing={5}>
+        <Grid container spacing={5} >
           
           {/*First Column*/}
           <Grid item xs={12} md={4}>
-            <div>
+            <div className={classes.alignRight} >
               <Typography variant="h3">
-                {'Welcome,'}
+                {'Hi there,'}
               </Typography>
               <Typography variant="body1">
-                {'some text about the heading to make the heading better If you are here looking to view my developer skills, resume, projects'}
+                {'My name is David Hanlon, and I am a full-stack web developer, entrepreneur, and a very... very amateur photographer. Click the button below to learn more about me and my work.'}
               </Typography>
               <p></p>
                 <Button className={classes.learnMore} href="#landing-options">Learn More</Button>

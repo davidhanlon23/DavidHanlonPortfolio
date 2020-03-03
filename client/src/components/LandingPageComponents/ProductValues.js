@@ -6,7 +6,7 @@ import Container from '@material-ui/core/Container';
 // import { Button } from "@material-ui/core";
 import Button from '../Shared/Button';
 import Typography from '../Shared/Typography';
-import devSvg from "../../images/html.svg";
+import devSvg from "../../images/htmlBlack.svg";
 import entrepreneurSvg from "../../images/entrepreneur.svg";
 import amateurPhotographerSvg from "../../images/photographer.svg";
 //import landingBg from "../../images/silhouette-of-mountains-1323550.jpg"
