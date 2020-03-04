@@ -77,7 +77,7 @@ function ProductValues(props) {
               </Typography>
               <Typography variant="body1">
                 {"I obtained my Bachelor's in COSC at Towson University where I learned Java, and taught myself NodeJS. "}
-                {'If you are here looking to view my developer skills, resume, projects, & work '}
+                {'To view my developer skills, resume, projects, & work '}
                 {'experience, click the button below. '}
                 
                 
@@ -98,9 +98,13 @@ function ProductValues(props) {
                 Entrepreneur
               </Typography>
               <Typography variant="body1">
-                {'I have always been somewhat of an Entrepreneur at heart and have invested time'}
-                {'into myself to work on things that I enjoy outside of developing.'}
+                {/* {'I have always been somewhat of an Entrepreneur at heart and have invested time'} */}
+                {'I have the mindset of an Entrepreneur. I invest my time into working on interests outside of developing .'}
+                {/* {'into myself to work on things that I enjoy outside of developing.'} */}
                 {'To learn more about my businesses and investments, click the button below.'}
+
+              
+
               </Typography>
               <Button href="/business" variant="contained">Businesses</Button>
             </div>
@@ -118,8 +122,9 @@ function ProductValues(props) {
                 Amateur Photographer
               </Typography>
               <Typography variant="body1">
-                {'Photography is something I have began growing a passion for recently with an'}
-                {' increased interest in traveling. I currently use a Nikon D3400. Click the button'}
+                {/* {'Photography is something I have began growing a passion for recently with an'} */}
+                {'Photography is a new profound hobby I have recently grown passionate.'}
+                {'I currently use a Nikon D3400. Click the button'}
                 {' below if you would like to view my photography portfolio and progression.'}
               </Typography>
               <Button href="/photography" variant="contained">Photos</Button>

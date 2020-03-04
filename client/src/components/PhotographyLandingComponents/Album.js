@@ -22,7 +22,7 @@ const useStyles = makeStyles(theme => ({
     marginRight: theme.spacing(2),
   },
   container:{
-    [theme.breakpoints.down('md')]:{
+    [theme.breakpoints.down('xs')]:{
       margin:'auto',
       padding:'10px',
       position:'absolute',
@@ -80,7 +80,7 @@ export default function Album() {
       {/* <main> */}
         {/* Hero unit */}
         {/* <div className={classes.heroContent}> */}
-          <Container className={classes.container} maxWidth="sm">
+          <Container className={classes.container} >
             <Typography component="h1" variant="h3" align="center" color="textPrimary" gutterBottom>
               My Photos
             </Typography>
@@ -107,12 +107,12 @@ export default function Album() {
           {/* </Container> */}
         {/* </div> */}
         {/* <Container className={classes.container}> */}
-          <Grid container spacing={10} justify='center'>
+          <Grid container spacing={4} justify='center'>
             
             <Grid item xs={12} md={4}>
               <InstagramEmbed
                 url='https://instagr.am/p/B5Ou3tFBtpZ/'
-                maxWidth={250}
+                // maxWidth={320}
                 hideCaption={true}
                 containerTagName='div'
                 injectScript
@@ -127,7 +127,7 @@ export default function Album() {
             <Grid item xs={12} md={4}>
               <InstagramEmbed
                 url='https://instagr.am/p/B43R11shIhB/' 
-                maxWidth={250}
+                // maxWidth={320}
                 hideCaption={true}
                 containerTagName='div'
                 injectScript
@@ -142,7 +142,7 @@ export default function Album() {
             <Grid item xs={12} md={4}>
               <InstagramEmbed
                 url='https://instagr.am/p/B4kSGwNhQpz/'
-                maxWidth={250}
+                // maxWidth={320}
                 hideCaption={true}
                 containerTagName='div'
                 injectScript
@@ -158,12 +158,12 @@ export default function Album() {
         {/* </Container> */}
        
         {/* <Container className={classes.container}> */}
-          <Grid container spacing={10} justify='center'>
+          <Grid container spacing={4} justify='center'>
             
             <Grid item xs={12} md={4}>
               <InstagramEmbed
                 url='https://instagr.am/p/B4aIOv7B69l/'
-                maxWidth={320}
+                // maxWidth={320}
                 hideCaption={true}
                 containerTagName='div'
                 injectScript
@@ -178,7 +178,7 @@ export default function Album() {
             <Grid item xs={12} md={4}>
               <InstagramEmbed
                 url='https://instagr.am/p/B3h7ViIhE39/'
-                maxWidth={250}
+                // maxWidth={320}
                 hideCaption={true}
                 containerTagName='div'
                 injectScript
