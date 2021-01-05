@@ -17,7 +17,7 @@
     "@typescript-eslint/parser": "^1.9.0",
     "@typescript-eslint/typescript-estree": "1.10.2",
     "animate.css": "^3.7.2",
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "bootstrap": "4.3.1",
     "browserlist": "^1.0.1",
     "browserslist": "^4.6.2",
