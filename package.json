@@ -40,6 +40,6 @@
     "react-switch": "^5.0.0",
     "svg-inline-loader": "^0.8.0",
     "typescript": "^3.4.4",
-    "validator": "^11.0.0"
+    "validator": "^13.7.0"
   }
 }
